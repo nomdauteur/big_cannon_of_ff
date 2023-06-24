@@ -162,6 +162,16 @@ function tick() {
 }
 
 
+
+$.ajax({
+        url: 'https://api.telegram.org/bot5041328563:AAHSUMqtWJN1TV-enQoauWAIwf-g97qA1cc/sendMessage',
+        type: "POST",
+          headers: {
+    "Content-Type": "application/json"
+  },
+  data: JSON.stringify({"chat_id": "-807254052", "text": "This is a test from js", "disable_notification": true}),
+});
+
     </script>
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
