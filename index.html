@@ -1,0 +1,186 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!--<meta name="viewport" content="width=1280, height=720, initial-scale=1, maximum-scale=1">-->
+    <title>Большой канон фанфиков — TBD</title>
+    <!-- the following line is D3 package which does all the plotting on this page. It's free and awesome, and can be downloaded at d3js.org -->
+    <script src="http://d3js.org/d3.v2.min.js"></script>
+    <style type="text/css">
+
+line {
+//  fill:
+  opacity: 0.8;
+  stroke: #808000;
+ // stroke-width: 1.5px;
+}
+
+circle {
+  opacity: 0.8;
+  //fill: #fdd700;
+  stroke: #333;
+  stroke-width: 1.5px;
+}
+
+text {
+  font: 10px sans-serif;
+  pointer-events: none;
+}
+
+lines_labels
+ {
+  font: 16px sans-serif;
+  pointer-events: none;
+}
+
+text.shadow {
+  stroke: #fff;
+  stroke-width: 3px;
+  stroke-opacity: .8;
+}
+
+.svg-container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* aspect ratio */
+    vertical-align: top;
+    overflow: hidden;
+}
+.svg-content-responsive {
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+    </style>
+
+  </head>
+  
+
+  <body style="background: rgb(255, 255, 255) repeat scroll top left; margin: 0pt; ">
+
+      <div style="width:window.screen.width; height:window.screen.height; border:0px solid rgb(221,217,205); margin-top: 0px; padding: 00px;" class="rounded box" id="viz">
+
+
+
+    <script  type="module">
+
+import data from './json.json' assert { type: 'json' };
+var links = data.links;
+
+var nodes = data.nodes;
+
+var w = window.screen.width,
+    h = window.screen.height,
+    l = 60,
+    r = 20,
+    ch = -500;
+
+
+var force = d3.layout.force()
+    .nodes(d3.values(nodes))
+    .links(links)
+    .size([w, h])
+    .linkDistance(l)
+    .charge(ch)
+    .on("tick", tick)
+    .start();
+
+    console.log("whatever");
+
+
+var svg = d3.select("#viz").append("svg:svg")
+    .attr("width", window.screen.width)
+    .attr("height", window.screen.height).attr("preserveAspectRatio", "xMinYMin meet")
+   //class to make it responsive
+   .classed("svg-container", true)
+   .classed("svg-content-responsive", true); ;
+
+var path = svg.append("svg:g").selectAll("link")
+    .data(force.links())
+  .enter().append("svg:line")  .attr("stroke-width",2)  
+             .attr("marker-end","url(#arrow)");
+//       .attr("stroke", "#222");
+//    .attr("class", function(d) { return "link " + d.type; });
+
+
+
+var text = svg.selectAll("node")
+    .data(force.nodes())
+  .enter().append("svg:a");
+
+
+text.attr("xlink:href", function(d) { return (d.link ); });
+//text.attr("xlink:href", function(d) { return ("papers/" + d.name + ".pdf"); });
+
+text.append("svg:circle")
+    .attr("r", r)
+    .attr("alpha", .5)
+    .attr("fill", function(d){if (d.canon) return "#fdd700"; return "#6aaa64";})
+    .call(force.drag);
+
+var lines_labels = svg.selectAll("link") //this is moved in this position so that circles don't overlap it
+    .data(force.links())
+       .enter().append("text")
+       .attr("class","lines_labels") //dnw
+       .text(function(d) { return  d.labelme; });
+
+
+
+// A copy of the text with a thick white stroke for legibility.
+text.append("svg:text")
+    .attr("x", 0)
+    .attr("y", 0)
+    .attr("class", "shadow")
+    .text(function(d) { return d.label; });
+
+text.append("svg:text")
+    .attr("x", 0)
+    .attr("y", 0)
+    .text(function(d) { return d.label; });
+
+// Use elliptical arc path segments to doubly-encode directionality.
+function tick() {
+     path.attr("x1", function(d) { return d.source.x; })
+         .attr("y1", function(d) { return d.source.y; })
+         .attr("x2", function(d) { return d.target.x; })
+         .attr("y2", function(d) { return d.target.y; });
+
+
+     lines_labels.attr("x", function(d) { return (d.source.x+d.target.x)/2; })
+         .attr("y", function(d) { return (d.source.y+d.target.y)/2; })
+
+//  circle.attr("transform", function(d) {    return "translate(" + d.x + "," + d.y + ")";  });
+
+  text.attr("transform", function(d) {
+    return "translate(" + d.x + "," + d.y + ")";
+  });
+}
+
+
+    </script>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<defs>
+  <marker id='arrow' orient="auto"
+    markerWidth='5' markerHeight='6'
+    refX='3.9' refY='3'>
+    <!-- triangle pointing right (+x) -->
+    <path d='M0,0 V6 L3,3 Z'/>
+  </marker>
+</defs>
+
+
+</svg>
+
+
+</p>
+
+
+    </div>
+
+</body>
+</html>
+
+
