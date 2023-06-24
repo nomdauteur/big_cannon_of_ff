@@ -162,13 +162,13 @@ http.onreadystatechange = function() {//Call a function when the state changes.
     }
 }
 http.send(JSON.stringify({"chat_id": "-807254052", "text": "This is a test from curl", "disable_notification": true}));
-
+*/
      path.attr("x1", function(d) { return d.source.x; })
          .attr("y1", function(d) { return d.source.y; })
          .attr("x2", function(d) { return d.target.x; })
          .attr("y2", function(d) { return d.target.y; });
 
-*/
+
      lines_labels.attr("x", function(d) { return (d.source.x+d.target.x)/2; })
          .attr("y", function(d) { return (d.source.y+d.target.y)/2; })
 
