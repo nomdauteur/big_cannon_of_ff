@@ -1,10 +1,10 @@
 {
-	"nodes":[
+	"nodes": [
 		{"id":"0", "label":"Андрюха, у нас...", "link":"https://vk.com/@verbum_dictum-priklucheniya-andruhi-i-slavki", "canon":true},
 		{"id":"1", "label":"Хтонь в пальто", "link":"https://vk.com/wall-103479964_4365", "canon":true},
 		{"id":"2", "label":"Андрюха, у нас... Славка таки славка", "link":"https://vk.com/wall-110887427_711", "canon":false}
 	],
-	"links":[
+	"links": [
 		{"source":0, "target":2},
 		{"source":1, "target":2}
 	]
