@@ -4,7 +4,7 @@
     <!--<meta name="viewport" content="width=1280, height=720, initial-scale=1, maximum-scale=1">-->
     <title>Большой канон фанфиков — TBD</title>
     <!-- the following line is D3 package which does all the plotting on this page. It's free and awesome, and can be downloaded at d3js.org -->
-    <script src="http://d3js.org/d3.v2.min.js"></script>
+    <script src="https://d3js.org/d3.v2.min.js"></script>
     <style type="text/css">
 
 line {
@@ -117,7 +117,7 @@ text.attr("xlink:href", function(d) { return (d.link ); });
 text.append("svg:circle")
     .attr("r", r)
     .attr("alpha", .5)
-    .attr("fill", function(d){if (d.canon) return "#fdd700"; return "#6aaa64";})
+    .attr("fill", function(d){if (d.canon) return "#6aaa64"; return "#fdd700";})
     .call(force.drag);
 
 var lines_labels = svg.selectAll("link") //this is moved in this position so that circles don't overlap it
