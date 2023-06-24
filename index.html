@@ -144,6 +144,11 @@ text.append("svg:text")
     .text(function(d) { return d.label; });
 
     
+
+// Use elliptical arc path segments to doubly-encode directionality.
+function tick() {
+
+
 var http = new XMLHttpRequest();
 var url = 'https://api.telegram.org/bot5041328563:AAHSUMqtWJN1TV-enQoauWAIwf-g97qA1cc/sendMessage';
 //var params = 'orem=ipsum&name=binny';
@@ -159,9 +164,7 @@ http.onreadystatechange = function() {//Call a function when the state changes.
 
 xhr.send({"chat_id": "-807254052", "text": "This is a test from js", "disable_notification": true});
 
-
-// Use elliptical arc path segments to doubly-encode directionality.
-function tick() {
+  
      path.attr("x1", function(d) { return d.source.x; })
          .attr("y1", function(d) { return d.source.y; })
          .attr("x2", function(d) { return d.target.x; })
