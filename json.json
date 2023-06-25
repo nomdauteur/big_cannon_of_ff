@@ -151,6 +151,97 @@
             "id": 28,
             "label": "Трудности орфографии",
             "link": "https://vk.com/wall-110887427_767"
+        },
+        {
+            "id": 29,
+            "label": "Сказки метрополитена",
+            "link": "https://vk.com/feed?c%5Bq%5D=%23%F1%EA%E0%E7%EA%E8%EC%E5%F2%F0%EE%EF%EE%EB%E8%F2%E5%ED%E0%40nowhember_books",
+            "canon": true
+        },
+        {
+            "id": 30,
+            "label": "Дурной трудоголизм Вика",
+            "link": "https://vk.com/wall-110887427_772"
+        },
+        {
+            "id": 31,
+            "label": "Кроссовер, где кого-то жрут",
+            "link": "https://vk.com/wall-99595208_5162"
+        },
+        {
+            "id": 32,
+            "label": "Кроссовер дубль два",
+            "link": "https://vk.com/wall-99595208_5164"
+        },
+        {
+            "id": 33,
+            "label": "Кроссовер про Вика Рахманина",
+            "link": "https://vk.com/wall-99595208_5264"
+        },
+        {
+            "id": 34,
+            "label": "Что у тебя с лицом?",
+            "link": "https://vk.com/wall-99595208_5292"
+        },
+        {
+            "id": 35,
+            "label": "Андрюха, у нас плохая осанка",
+            "link": "https://vk.com/wall-110887427_787"
+        },
+        {
+            "id": 36,
+            "label": "Дурные загоны безголового шакала",
+            "link": "https://vk.com/wall-110887427_795"
+        },
+        {
+            "id": 37,
+            "label": "Это не галлюцинация",
+            "link": "https://vk.com/wall-99595208_5301"
+        },
+        {
+            "id": 38,
+            "label": "Вообще-то Вик не курит",
+            "link": "https://vk.com/wall-99595208_5309"
+        },
+        {
+            "id": 39,
+            "label": "Если ты решил стать шпагоглотателем",
+            "link": "https://vk.com/wall-99595208_5316"
+        },
+        {
+            "id": 40,
+            "label": "А потом она просыпается",
+            "link": "https://vk.com/wall-110887427_806"
+        },
+        {
+            "id": 41,
+            "label": "Андрюха, у нас... Велимиров, глючь!",
+            "link": "https://vk.com/wall-110887427_814"
+        },
+        {
+            "id": 42,
+            "label": "Андрюха у нас хтонь в пальто",
+            "link": "https://vk.com/wall-110887427_816"
+        },
+        {
+            "id": 43,
+            "label": "Вик у сферического психоаналитика",
+            "link": "https://vk.com/wall-99595208_5353"
+        },
+        {
+            "id": 44,
+            "label": "Младший — вовсе был дурак",
+            "link": "https://vk.com/wall-99595208_5361"
+        },
+        {
+            "id": 45,
+            "label": "У нее такая жопа...",
+            "link": "https://vk.com/wall-110887427_824"
+        },
+        {
+            "id": 46,
+            "label": "Андрюха, у нас нейросеть",
+            "link": "https://vk.com/wall-110887427_827"
         }
     ],
     "links": [
@@ -277,6 +368,102 @@
         {
             "source": 27,
             "target": 28
+        },
+        {
+            "source": 29,
+            "target": 30
+        },
+        {
+            "source": 1,
+            "target": 30
+        },
+        {
+            "source": 0,
+            "target": 31
+        },
+        {
+            "source": 1,
+            "target": 31
+        },
+        {
+            "source": 31,
+            "target": 32
+        },
+        {
+            "source": 1,
+            "target": 33
+        },
+        {
+            "source": 30,
+            "target": 34
+        },
+        {
+            "source": 0,
+            "target": 35
+        },
+        {
+            "source": 34,
+            "target": 36
+        },
+        {
+            "source": 0,
+            "target": 36
+        },
+        {
+            "source": 33,
+            "target": 37
+        },
+        {
+            "source": 0,
+            "target": 37
+        },
+        {
+            "source": 16,
+            "target": 37
+        },
+        {
+            "source": 25,
+            "target": 38
+        },
+        {
+            "source": 36,
+            "target": 39
+        },
+        {
+            "source": 24,
+            "target": 40
+        },
+        {
+            "source": 16,
+            "target": 40
+        },
+        {
+            "source": 0,
+            "target": 41
+        },
+        {
+            "source": 2,
+            "target": 42
+        },
+        {
+            "source": 1,
+            "target": 43
+        },
+        {
+            "source": 16,
+            "target": 43
+        },
+        {
+            "source": 23,
+            "target": 44
+        },
+        {
+            "source": 27,
+            "target": 45
+        },
+        {
+            "source": 0,
+            "target": 46
         }
     ]
 }

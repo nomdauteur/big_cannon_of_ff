@@ -94,7 +94,7 @@ text.shadow {
 
   <body style="background: rgb(255, 255, 255) repeat scroll top left; margin: 0pt; ">
 
-      <div style="width:window.screen.width; height:window.screen.height; border:0px solid rgb(221,217,205); margin-top: 0px; padding: 00px;" class="rounded box" id="viz">
+      <div style="width:window.screen.width; height:window.screen.height; bottom:0px; border:0px solid rgb(221,217,205); margin-top: -100px; padding: 00px;" class="rounded box" id="viz">
 
 
 
@@ -201,7 +201,7 @@ var links = data.links;
 var nodes = data.nodes;
 
 var w = window.screen.width,
-    h = window.screen.height-100,
+    h = window.screen.height,
     l = 60,
     r = 20,
     ch = -1000;
@@ -294,7 +294,7 @@ function tick() {
 
     </script>
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
 <defs>
   <marker id='arrow' orient="auto"
     markerWidth='5' markerHeight='6'
