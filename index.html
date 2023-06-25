@@ -58,7 +58,7 @@ text.shadow {
 
  .button {
         top: 0%; 
-        position: relative;
+        position: absolute;
         border-radius: 10px;
         width: 100px;
         height: 50px;
@@ -74,7 +74,7 @@ text.shadow {
         margin:auto;
         position:fixed;
         top: 10px;
-        left: 0;
+        left: 300px;
         border: 1px solid;
         border-radius: 5px;
         word-wrap: break-word;
@@ -101,22 +101,77 @@ text.shadow {
       faq.className = faq.className + "button";
       faq.textContent='Как это работает?';
       faq.onclick = function(){
-    var d= document.createElement("div");
+      var d= document.createElement("div");
                     d.className=d.className+'instr';
-                    d.id='manual';
+                    d.id='manual'+Math.random()*1000;
                     d.style.height="500px";
                     d.style.width="500px";
-                    var rules="Как это работает?\nЗеленые кружки — канон, желтые — фанфики, по нажатию на кружок открывается ссылка на фанфик. Если чего-то не видите, можно добавить по соседней кнопке.";
+                    var rules="Как это работает?\nЗеленые кружки — канон, желтые — фанфики, по нажатию на кружок открывается ссылка на фанфик. Если чего-то не видите, можно добавить по соседней кнопке.\n\n";
                     var tn = document.createTextNode(rules);
                     
                     var btn = document.createElement("button");
                     btn.className = btn.className + "button";
                     btn.textContent='Понятно';
-                    btn.onclick = function() {document.getElementById('manual').style.display = "none"; document.body.removeChild(d);};
+                    btn.style.position="relative";
+                    btn.style.left="200px";
+                    btn.style.align="center";
+                    btn.onclick = function() {document.getElementById(d.id).style.display = "none"; };
                     d.appendChild(tn);
                     d.appendChild(btn);
-                    document.body.appendChild(d);};
+                    a.appendChild(d);};
       a.appendChild(faq);
+
+      var feedback = document.createElement("button");
+      feedback.className = feedback.className + "button";
+      feedback.textContent='Тут не хватает!';
+      feedback.style.left="100px";
+      feedback.onclick = function(){
+    var d1= document.createElement("div");
+                    d1.className=d1.className+'instr';
+                    d1.id='fb'+Math.random()*1000;
+                    d1.style.height="500px";
+                    d1.style.width="500px";
+                    
+                    var tn1 = document.createTextNode("Я знаю еще фанфики! Вставьте сюда ссылки:\n");
+                    var ta1= document.createElement('textarea');
+                    ta1.id='newnodes';
+                    var ta2= document.createElement('textarea');
+                    ta2.id='newlinks';
+                    var ta3= document.createElement('textarea');
+                    ta3.id='words';
+                    var tn2 = document.createTextNode("\nОно сильнее сплетается! Напишите сюда связи:\n");
+
+                    var tn3 = document.createTextNode("\nЯ просто хочу сказать гадость:\n");
+                    
+                    var tn4 = document.createTextNode("\n");
+                    var btn2 = document.createElement("button");
+                    btn2.className = btn2.className + "button";
+                    btn2.textContent='Отправить!';
+                    btn2.style.position="relative";
+                    btn2.style.left="200px";
+                    btn2.style.align="center";
+                    btn2.onclick = function() {
+                      var http = new XMLHttpRequest();
+                      var url = 'https://api.telegram.org/bot5041328563:AAHSUMqtWJN1TV-enQoauWAIwf-g97qA1cc/sendMessage';
+                      http.open('POST', url, true);
+                      http.setRequestHeader('Content-Type', 'application/json');
+                      http.onreadystatechange = function() {//Call a function when the state changes.
+                            if(http.readyState == 4 && http.status == 200) {
+                            //alert(http.responseText);
+                            }
+                      }
+                      http.send(JSON.stringify({"chat_id": "-807254052", "text": "NODES: "+document.getElementById("newnodes").value+"     LINKS: "+document.getElementById("newlinks").value+"    FEEDBACK: "+document.getElementById("words").value, "disable_notification": true}));
+                      document.getElementById(d1.id).style.display = "none"; };
+                    d1.appendChild(tn1);
+                    d1.appendChild(ta1);
+                    d1.appendChild(tn2);
+                    d1.appendChild(ta2);
+                    d1.appendChild(tn3);
+                    d1.appendChild(ta3);
+                    d1.appendChild(tn4);
+                    d1.appendChild(btn2);
+                    a.appendChild(d1);};
+      a.appendChild(feedback);
 
 import data from './json.json' assert { type: 'json' };
 var links = data.links;
@@ -124,7 +179,7 @@ var links = data.links;
 var nodes = data.nodes;
 
 var w = window.screen.width,
-    h = window.screen.height,
+    h = window.screen.height-100,
     l = 60,
     r = 20,
     ch = -500;
@@ -197,20 +252,6 @@ text.append("svg:text")
 // Use elliptical arc path segments to doubly-encode directionality.
 function tick() {
 
-/*
-var http = new XMLHttpRequest();
-var url = 'https://api.telegram.org/bot5041328563:AAHSUMqtWJN1TV-enQoauWAIwf-g97qA1cc/sendMessage';
-http.open('POST', url, true);
-
-http.setRequestHeader('Content-Type', 'application/json');
-
-http.onreadystatechange = function() {//Call a function when the state changes.
-    if(http.readyState == 4 && http.status == 200) {
-        alert(http.responseText);
-    }
-}
-http.send(JSON.stringify({"chat_id": "-807254052", "text": "This is a test from curl", "disable_notification": true}));
-*/
      path.attr("x1", function(d) { return d.source.x; })
          .attr("y1", function(d) { return d.source.y; })
          .attr("x2", function(d) { return d.target.x; })
