@@ -95,15 +95,67 @@
             "id": 17,
             "label": "На календаре Несмеянин день",
             "link": "https://vk.com/wall-110887427_651"
+        },
+        {
+            "id": 18,
+            "label": "Слава, сказано",
+            "link": "https://vk.com/wall-110887427_653"
+        },
+        {
+            "id": 19,
+            "label": "Золотые купола",
+            "link": "https://vk.com/wall-110887427_656"
+        },
+        {
+            "id": 20,
+            "label": "Хлебное место",
+            "link": "https://vk.com/wall-110887427_677"
+        },
+        {
+            "id": 21,
+            "label": "Фельетон-фельетон-фельетонище",
+            "link": "https://vk.com/wall-110887427_683"
+        },
+        {
+            "id": 22,
+            "label": "Андрюха, у нас... бытовой BDSM",
+            "link": "https://vk.com/wall-110887427_703"
+        },
+        {
+            "id": 23,
+            "label": "Андрюха, у нас… Перед ведьмой хтонь в пальто",
+            "link": "https://vk.com/wall-213264704_997"
+        },
+        {
+            "id": 24,
+            "label": "Андрюха, у нас… четвертая стена",
+            "link": "https://vk.com/wall-110887427_713"
+        },
+        {
+            "id": 25,
+            "label": "Съешь меня",
+            "link": "https://vk.com/wall-110887427_733"
+        },
+        {
+            "id": 26,
+            "label": "Обычная магия в пальто",
+            "link": "https://vk.com/wall-110887427_750"
+        },
+        {
+            "id": 27,
+            "label": "Письма из...",
+            "link": "https://vk.com/@verbum_dictum-cikl-pisma-iz",
+            "canon": true
+        },
+        {
+            "id": 28,
+            "label": "Трудности орфографии",
+            "link": "https://vk.com/wall-110887427_767"
         }
     ],
     "links": [
         {
-            "source": 0,
-            "target": 2
-        },
-        {
-            "source": 1,
+            "source": 25,
             "target": 2
         },
         {
@@ -173,6 +225,58 @@
         {
             "source": 16,
             "target": 17
+        },
+        {
+            "source": 0,
+            "target": 18
+        },
+        {
+            "source": 11,
+            "target": 19
+        },
+        {
+            "source": 11,
+            "target": 20
+        },
+        {
+            "source": 0,
+            "target": 22
+        },
+        {
+            "source": 0,
+            "target": 23
+        },
+        {
+            "source": 1,
+            "target": 23
+        },
+        {
+            "source": 21,
+            "target": 24
+        },
+        {
+            "source": 23,
+            "target": 24
+        },
+        {
+            "source": 0,
+            "target": 25
+        },
+        {
+            "source": 1,
+            "target": 25
+        },
+        {
+            "source": 1,
+            "target": 26
+        },
+        {
+            "source": 10,
+            "target": 26
+        },
+        {
+            "source": 27,
+            "target": 28
         }
     ]
 }
