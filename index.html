@@ -56,6 +56,15 @@ text.shadow {
     left: 0;
 }
 
+ .button {
+        top: 0%; 
+        position: relative;
+        border-radius: 10px;
+        width: 100px;
+        height: 50px;
+        z-index: 2;
+    }
+
 .instr
     {
         z-index:100;
@@ -63,7 +72,9 @@ text.shadow {
         height:500px;
         background-color: #ffffff;
         margin:auto;
-        position:relative;
+        position:fixed;
+        top: 10px;
+        left: 0;
         border: 1px solid;
         border-radius: 5px;
         word-wrap: break-word;
@@ -84,12 +95,27 @@ text.shadow {
 
     <script  type="module">
 
-      a=document.getElementById("viz");
+      var a=document.getElementById("viz");
 
       var faq = document.createElement("button");
-      faq.className = btn.className + "button";
+      faq.className = faq.className + "button";
       faq.textContent='Как это работает?';
-      faq.onclick = displayFaq();
+      faq.onclick = function(){
+    var d= document.createElement("div");
+                    d.className=d.className+'instr';
+                    d.id='manual';
+                    d.style.height="500px";
+                    d.style.width="500px";
+                    var rules="Как это работает?\nЗеленые кружки — канон, желтые — фанфики, по нажатию на кружок открывается ссылка на фанфик. Если чего-то не видите, можно добавить по соседней кнопке.";
+                    var tn = document.createTextNode(rules);
+                    
+                    var btn = document.createElement("button");
+                    btn.className = btn.className + "button";
+                    btn.textContent='Понятно';
+                    btn.onclick = function() {document.getElementById('manual').style.display = "none"; document.body.removeChild(d);};
+                    d.appendChild(tn);
+                    d.appendChild(btn);
+                    document.body.appendChild(d);};
       a.appendChild(faq);
 
 import data from './json.json' assert { type: 'json' };
@@ -201,24 +227,6 @@ http.send(JSON.stringify({"chat_id": "-807254052", "text": "This is a test from 
   });
 }
 
- function displayFaq()
-{
-    var d= document.createElement("div");
-                    d.className=d.className+'instr';
-                    d.id='manual';
-                    d.style.height="500px";
-                    d.style.width="500px";
-                    rules="Как это работает?\nЗеленые кружки — канон, желтые — фанфики, по нажатию на кружок открывается ссылка на фанфик. Если чего-то не видите, можно добавить по соседней кнопке.";
-                    var tn = document.createTextNode(rules);
-                    
-                    var btn = document.createElement("button");
-                    btn.className = btn.className + "button";
-                    btn3.textContent='Понятно';
-                    btn3.onclick = function() {document.getElementById('manual').style.display = "none"; };
-                    d.appendChild(tn);
-                    d.appendChild(btn);
-                    document.body.appendChild(d);}
-}
 
 
     </script>
