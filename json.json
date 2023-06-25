@@ -1,11 +1,90 @@
 {
-	"nodes": [
-		{"id":"0", "label":"Андрюха, у нас...", "link":"https://vk.com/@verbum_dictum-priklucheniya-andruhi-i-slavki", "canon":true},
-		{"id":"1", "label":"Хтонь в пальто", "link":"https://vk.com/wall-103479964_4365", "canon":true},
-		{"id":"2", "label":"Андрюха, у нас... Славка таки славка", "link":"https://vk.com/wall-110887427_711", "canon":false}
-	],
-	"links": [
-		{"source":0, "target":2},
-		{"source":1, "target":2}
-	]
+    "nodes": [
+        {
+            "id": "0",
+            "label": "Андрюха, у нас...",
+            "link": "https://vk.com/@verbum_dictum-priklucheniya-andruhi-i-slavki",
+            "canon": true
+        },
+        {
+            "id": "1",
+            "label": "Хтонь в пальто",
+            "link": "https://vk.com/wall-103479964_4365",
+            "canon": true
+        },
+        {
+            "id": "2",
+            "label": "Андрюха, у нас... Славка таки славка",
+            "link": "https://vk.com/wall-110887427_711",
+            "canon": false
+        },
+        {
+            "id": 3,
+            "label": "Андрюха, у нас... Шведские коллекторы?",
+            "link": "https://vk.com/wall-74962618_171123"
+        },
+        {
+            "id": 4,
+            "label": "Колыбельная для птицы и шакала",
+            "link": "https://vk.com/wall-156238751_4891"
+        },
+        {
+            "id": 5,
+            "label": "Безумная дача, или Ворон, шакал, белочка и двадцать шесть славок",
+            "link": "https://vk.com/wall-156238751_4993"
+        },
+        {
+            "id": 6,
+            "label": "Андрюха, у нас... нет времени!",
+            "link": "https://vk.com/wall-213264704_2311"
+        },
+        {
+            "id": 7,
+            "label": "Тени Литейного. Ненастоящий каток",
+            "link": "https://vk.com/wall-213264704_4331"
+        },
+        {
+            "id": 8,
+            "label": "Тени Литейного. Не в сети",
+            "link": "https://vk.com/wall-213264704_5757"
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 2
+        },
+        {
+            "source": 1,
+            "target": 2
+        },
+        {
+            "source": 0,
+            "target": 3
+        },
+        {
+            "source": 0,
+            "target": 4
+        },
+        {
+            "source": 1,
+            "target": 4
+        },
+        {
+            "source": 4,
+            "target": 5
+        },
+        {
+            "source": 0,
+            "target": 6
+        },
+        {
+            "source": 0,
+            "target": 7
+        },
+        {
+            "source": 0,
+            "target": 8
+        }
+    ]
 }
