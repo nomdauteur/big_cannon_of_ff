@@ -5,7 +5,7 @@
 <meta http-equiv='expires' content='0'> 
 <meta http-equiv='pragma' content='no-cache'>
     <meta name="viewport" content="width=1280, height=720, initial-scale=1, maximum-scale=1">
-    <title>Большой канон фанфиков — TBD</title>
+    <title>Большой канон фанфиков</title>
     <!-- the following line is D3 package which does all the plotting on this page. It's free and awesome, and can be downloaded at d3js.org -->
     <script src="https://d3js.org/d3.v2.min.js"></script>
     <style type="text/css">
@@ -112,7 +112,7 @@ text.shadow {
                     
                     d.style.height="200px";
                     d.style.width="500px";
-                    var rules="Как это работает?\n"+String.fromCodePoint(128994)+" — канон.\n"+String.fromCodePoint(128993)+" — фанфики. \nПо нажатию на кружок открывается ссылка на текст.\nЕсли чего-то не хватает, можно добавить по соответствующей кнопке.\n\n";
+                    var rules="Как это работает?\n"+String.fromCodePoint(128994)+" — канон.\n"+String.fromCodePoint(128993)+" — фанфики. \nМожно таскать мышью и залипать.\nПо нажатию на кружок открывается ссылка на текст.\nЕсли чего-то не хватает, можно добавить по соответствующей кнопке.\n\n";
                     var tn = document.createTextNode(rules);
                     
                     var btn = document.createElement("button");
@@ -204,7 +204,7 @@ var w = window.screen.width,
     h = window.screen.height-100,
     l = 60,
     r = 20,
-    ch = -500;
+    ch = -1000;
 
 
 var force = d3.layout.force()
