@@ -56,6 +56,21 @@ text.shadow {
     left: 0;
 }
 
+.instr
+    {
+        z-index:100;
+        width:500px;
+        height:500px;
+        background-color: #ffffff;
+        margin:auto;
+        position:relative;
+        border: 1px solid;
+        border-radius: 5px;
+        word-wrap: break-word;
+        white-space:pre-wrap;
+        padding:10px;
+    }
+
     </style>
 
   </head>
@@ -68,6 +83,14 @@ text.shadow {
 
 
     <script  type="module">
+
+      a=document.getElementById("viz");
+
+      var faq = document.createElement("button");
+      faq.className = btn.className + "button";
+      faq.textContent='Как это работает?';
+      faq.onclick = displayFaq();
+      a.appendChild(faq);
 
 import data from './json.json' assert { type: 'json' };
 var links = data.links;
@@ -151,7 +174,6 @@ function tick() {
 /*
 var http = new XMLHttpRequest();
 var url = 'https://api.telegram.org/bot5041328563:AAHSUMqtWJN1TV-enQoauWAIwf-g97qA1cc/sendMessage';
-//var params = 'orem=ipsum&name=binny';
 http.open('POST', url, true);
 
 http.setRequestHeader('Content-Type', 'application/json');
@@ -177,6 +199,25 @@ http.send(JSON.stringify({"chat_id": "-807254052", "text": "This is a test from 
   text.attr("transform", function(d) {
     return "translate(" + d.x + "," + d.y + ")";
   });
+}
+
+ function displayFaq()
+{
+    var d= document.createElement("div");
+                    d.className=d.className+'instr';
+                    d.id='manual';
+                    d.style.height="500px";
+                    d.style.width="500px";
+                    rules="Как это работает?\nЗеленые кружки — канон, желтые — фанфики, по нажатию на кружок открывается ссылка на фанфик. Если чего-то не видите, можно добавить по соседней кнопке.";
+                    var tn = document.createTextNode(rules);
+                    
+                    var btn = document.createElement("button");
+                    btn.className = btn.className + "button";
+                    btn3.textContent='Понятно';
+                    btn3.onclick = function() {document.getElementById('manual').style.display = "none"; };
+                    d.appendChild(tn);
+                    d.appendChild(btn);
+                    document.body.appendChild(d);}
 }
 
 
