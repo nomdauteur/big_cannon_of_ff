@@ -242,6 +242,47 @@
             "id": 46,
             "label": "Андрюха, у нас нейросеть",
             "link": "https://vk.com/wall-110887427_827"
+        },
+        {
+            "id": 47,
+            "label": "Кроссовер с «Концом света»",
+            "link": "https://vk.com/wall-99595208_5367"
+        },
+        {
+            "id": 48,
+            "label": "Метрошному монстру скучать некогда",
+            "link": "https://vk.com/wall-149487088_2060"
+        },
+        {
+            "id": 49,
+            "label": "Кроссовер, где Вик знакомится с Лизой",
+            "link": "https://vk.com/wall-99595208_5371"
+        },
+        {
+            "id": 50,
+            "label": "В животе у Вика щебечут птицы",
+            "link": "https://vk.com/wall-99595208_5392"
+        },
+        {
+            "id": 51,
+            "label": "Блог Бабы Яги",
+            "link": "https://vk.com/yagablog",
+            "canon": true
+        },
+        {
+            "id": 52,
+            "label": "Андрюха, у нас летописец",
+            "link": "https://vk.com/wall-110887427_834"
+        },
+        {
+            "id": 53,
+            "label": "Аё, у нас шакал с салфеточкой",
+            "link": "https://vk.com/wall-110887427_846"
+        },
+        {
+            "id": 54,
+            "label": "Можно я тебя съем",
+            "link": "https://vk.com/wall-99595208_5429"
         }
     ],
     "links": [
@@ -464,6 +505,42 @@
         {
             "source": 0,
             "target": 46
+        },
+        {
+            "source": 37,
+            "target": 47
+        },
+        {
+            "source": 34,
+            "target": 48
+        },
+        {
+            "source": 48,
+            "target": 49
+        },
+        {
+            "source": 36,
+            "target": 49
+        },
+        {
+            "source": 25,
+            "target": 50
+        },
+        {
+            "source": 51,
+            "target": 52
+        },
+        {
+            "source": 0,
+            "target": 52
+        },
+        {
+            "source": 49,
+            "target": 53
+        },
+        {
+            "source": 53,
+            "target": 54
         }
     ]
 }

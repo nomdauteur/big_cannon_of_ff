@@ -4,11 +4,14 @@
     <meta http-equiv='cache-control' content='no-cache'> 
 <meta http-equiv='expires' content='0'> 
 <meta http-equiv='pragma' content='no-cache'>
-    <meta name="viewport" content="width=1280, height=720, initial-scale=1, maximum-scale=1">
+    <!--<meta name="viewport" content="width=1280, height=720, initial-scale=1, maximum-scale=1">-->
     <title>Большой канон фанфиков</title>
     <!-- the following line is D3 package which does all the plotting on this page. It's free and awesome, and can be downloaded at d3js.org -->
     <script src="https://d3js.org/d3.v2.min.js"></script>
     <style type="text/css">
+
+      html, body { margin:0; padding:0; overflow:visible }
+svg { position:absolute; top:0; bottom:0; left:0; right:0 }
 
 textarea
 {
@@ -94,7 +97,7 @@ text.shadow {
 
   <body style="background: rgb(255, 255, 255) repeat scroll top left; margin: 0pt; ">
 
-      <div style="width:window.screen.width; height:window.screen.height; bottom:0px; border:0px solid rgb(221,217,205); margin-top: -100px; padding: 00px;" class="rounded box" id="viz">
+     <!-- -->
 
 
 
@@ -112,7 +115,7 @@ text.shadow {
                     
                     d.style.height="200px";
                     d.style.width="500px";
-                    var rules="Как это работает?\n"+String.fromCodePoint(128994)+" — канон.\n"+String.fromCodePoint(128993)+" — фанфики. \nМожно таскать мышью и залипать.\nПо нажатию на кружок открывается ссылка на текст (кажется, только с компьютера).\nЕсли чего-то не хватает, можно добавить по соответствующей кнопке.\n\n";
+                    var rules="Как это работает?\n"+String.fromCodePoint(128994)+" — канон.\n"+String.fromCodePoint(128993)+" — фанфики. \nМожно таскать мышью и залипать.\nПо нажатию на кружок открывается ссылка на текст.\nЕсли чего-то не хватает, можно добавить по соответствующей кнопке.\n\n";
                     var tn = document.createTextNode(rules);
                     
                     var btn = document.createElement("button");
@@ -201,7 +204,7 @@ var links = data.links;
 var nodes = data.nodes;
 
 var w = window.screen.width,
-    h = window.screen.height,
+    h = window.screen.height-100,
     l = 60,
     r = 20,
     ch = -1000;
@@ -218,13 +221,18 @@ var force = d3.layout.force()
 
     console.log("whatever");
 
+    var svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
 
-var svg = d3.select("#viz").append("svg:svg")
-    .attr("width", window.screen.width)
-    .attr("height", window.screen.height).attr("preserveAspectRatio", "xMinYMin meet")
+
+
+/*var svg = d3.select("svg")//.append("svg:svg")
+    .attr("width", 1000)
+    .attr("height", 600).attr("preserveAspectRatio", "xMinYMin meet")
    //class to make it responsive
    .classed("svg-container", true)
-   .classed("svg-content-responsive", true); ;
+   .classed("svg-content-responsive", true); ;*/
 
 var path = svg.append("svg:g").selectAll("link")
     .data(force.links())
@@ -294,7 +302,8 @@ function tick() {
 
     </script>
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+<div style="width:window.screen.width; height:window.screen.height; border:0px solid rgb(221,217,205); margin-top: 0px; padding: 00px;" class="rounded box" id="viz">
+<svg id="svg_1" xmlns="http://www.w3.org/2000/svg" width="1280" height="5000" viewbox="0 -300 1280 4700">
 <defs>
   <marker id='arrow' orient="auto"
     markerWidth='5' markerHeight='6'
@@ -307,13 +316,9 @@ function tick() {
 
 </svg>
 
-
-</p>
-
-
+  
     </div>
 
 </body>
 </html>
-
 
