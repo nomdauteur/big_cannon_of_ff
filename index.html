@@ -10,6 +10,11 @@
     <script src="https://d3js.org/d3.v2.min.js"></script>
     <style type="text/css">
 
+textarea
+{
+  width:100%;
+}
+
 line {
 //  fill:
   opacity: 0.8;
@@ -104,9 +109,9 @@ text.shadow {
       var d= document.createElement("div");
                     d.className=d.className+'instr';
                     d.id='manual'+Math.random()*1000;
-                    d.style.height="500px";
+                    d.style.height="200px";
                     d.style.width="500px";
-                    var rules="Как это работает?\nЗеленые кружки — канон, желтые — фанфики, по нажатию на кружок открывается ссылка на фанфик. Если чего-то не видите, можно добавить по соседней кнопке.\n\n";
+                    var rules="Как это работает?\n"+String.fromCodePoint(128994)+" — канон.\n"+String.fromCodePoint(128993)+" — фанфики. \nПо нажатию на кружок открывается ссылка на текст.\nЕсли чего-то не хватает, можно добавить по соответствующей кнопке.\n\n";
                     var tn = document.createTextNode(rules);
                     
                     var btn = document.createElement("button");
@@ -143,7 +148,7 @@ text.shadow {
 
                     var tn3 = document.createTextNode("\nЯ просто хочу сказать гадость:\n");
                     
-                    var tn4 = document.createTextNode("\n");
+                    var tn4 = document.createTextNode("\n\n");
                     var btn2 = document.createElement("button");
                     btn2.className = btn2.className + "button";
                     btn2.textContent='Отправить!';
