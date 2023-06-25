@@ -109,6 +109,7 @@ text.shadow {
       var d= document.createElement("div");
                     d.className=d.className+'instr';
                     d.id='manual'+Math.random()*1000;
+                    
                     d.style.height="200px";
                     d.style.width="500px";
                     var rules="Как это работает?\n"+String.fromCodePoint(128994)+" — канон.\n"+String.fromCodePoint(128993)+" — фанфики. \nПо нажатию на кружок открывается ссылка на текст.\nЕсли чего-то не хватает, можно добавить по соответствующей кнопке.\n\n";
@@ -121,9 +122,12 @@ text.shadow {
                     btn.style.left="200px";
                     btn.style.align="center";
                     btn.onclick = function() {document.getElementById(d.id).style.display = "none"; };
+
                     d.appendChild(tn);
                     d.appendChild(btn);
-                    a.appendChild(d);};
+                    a.appendChild(d);
+
+                    };
       a.appendChild(faq);
 
       var feedback = document.createElement("button");
@@ -134,6 +138,7 @@ text.shadow {
     var d1= document.createElement("div");
                     d1.className=d1.className+'instr';
                     d1.id='fb'+Math.random()*1000;
+                    
                     d1.style.height="500px";
                     d1.style.width="500px";
                     
@@ -153,7 +158,7 @@ text.shadow {
                     btn2.className = btn2.className + "button";
                     btn2.textContent='Отправить!';
                     btn2.style.position="relative";
-                    btn2.style.left="200px";
+                    btn2.style.left="100px";
                     btn2.style.align="center";
                     btn2.onclick = function() {
                       var http = new XMLHttpRequest();
@@ -167,6 +172,15 @@ text.shadow {
                       }
                       http.send(JSON.stringify({"chat_id": "-807254052", "text": "NODES: "+document.getElementById("newnodes").value+"     LINKS: "+document.getElementById("newlinks").value+"    FEEDBACK: "+document.getElementById("words").value, "disable_notification": true}));
                       document.getElementById(d1.id).style.display = "none"; };
+
+                    var btn3 = document.createElement("button");
+                    btn3.className = btn3.className + "button";
+                    btn3.textContent='Не хочу!';
+                    btn3.style.position="relative";
+                    btn3.style.left="200px";
+                    btn3.style.align="center";
+                    btn3.onclick = function() {
+                      document.getElementById(d1.id).style.display = "none"; };
                     d1.appendChild(tn1);
                     d1.appendChild(ta1);
                     d1.appendChild(tn2);
@@ -175,7 +189,10 @@ text.shadow {
                     d1.appendChild(ta3);
                     d1.appendChild(tn4);
                     d1.appendChild(btn2);
-                    a.appendChild(d1);};
+                    d1.appendChild(btn3);
+                    a.appendChild(d1);
+                    document.getElementById(d1.id).innerHtml+='<span id="close2" onclick="this.parentNode.parentNode.remove(); return false;">x</span>';
+                    };
       a.appendChild(feedback);
 
 import data from './json.json' assert { type: 'json' };
