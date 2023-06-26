@@ -474,6 +474,26 @@
             "id": 92,
             "label": "Письма из Петербурга. P. P. S.",
             "link": "https://vk.com/wall-213264704_4864"
+        },
+        {
+            "id": 93,
+            "label": "Городу снятся цветастые сны",
+            "link": "https://vk.com/wall-161170547_44"
+        },
+        {
+            "id": 94,
+            "label": "Окольцованные троллейбусы",
+            "link": "https://vk.com/wall-161170547_45"
+        },
+        {
+            "id": 95,
+            "label": "Теперь это всё твоё",
+            "link": "https://vk.com/wall-161170547_46"
+        },
+        {
+            "id": 96,
+            "label": "Колдунья Ефросинья",
+            "link": "https://vk.com/wall-161170547_47"
         }
     ],
     "links": [
@@ -928,6 +948,26 @@
         {
             "source": 27,
             "target": 92
+        },
+        {
+            "source": 0,
+            "target": 93
+        },
+        {
+            "source": 0,
+            "target": 94
+        },
+        {
+            "source": 11,
+            "target": 94
+        },
+        {
+            "source": 0,
+            "target": 95
+        },
+        {
+            "source": 23,
+            "target": 96
         }
     ]
 }
