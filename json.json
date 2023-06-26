@@ -469,6 +469,11 @@
             "id": 91,
             "label": "За кофе с булкой",
             "link": "https://vk.com/wall-184200006_111"
+        },
+        {
+            "id": 92,
+            "label": "Письма из Петербурга. P. P. S.",
+            "link": "https://vk.com/wall-213264704_4864"
         }
     ],
     "links": [
@@ -919,6 +924,10 @@
         {
             "source": 13,
             "target": 89
+        },
+        {
+            "source": 27,
+            "target": 92
         }
     ]
 }
