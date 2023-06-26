@@ -494,6 +494,36 @@
             "id": 96,
             "label": "Колдунья Ефросинья",
             "link": "https://vk.com/wall-161170547_47"
+        },
+        {
+            "id": 97,
+            "label": "У меня зазвонил телефон",
+            "link": "https://vk.com/wall-74962618_233215"
+        },
+        {
+            "id": 98,
+            "label": "Всё начиналось... с красных кроссовок",
+            "link": "https://vk.com/wall536116818_54"
+        },
+        {
+            "id": 99,
+            "label": "Шагаю я одна",
+            "link": "https://vk.com/wall536116818_55"
+        },
+        {
+            "id": 100,
+            "label": "Раз ночью пришел Андрюха",
+            "link": "https://vk.com/wall536116818_56"
+        },
+        {
+            "id": 101,
+            "label": "Полпеченья и чай из блюдечка",
+            "link": "https://vk.com/wall536116818_61"
+        },
+        {
+            "id": 102,
+            "label": "В Питере по слоям",
+            "link": "https://vk.com/wall536116818_66"
         }
     ],
     "links": [
@@ -968,6 +998,42 @@
         {
             "source": 23,
             "target": 96
+        },
+        {
+            "source": 0,
+            "target": 97
+        },
+        {
+            "source": 1,
+            "target": 97
+        },
+        {
+            "source": 0,
+            "target": 98
+        },
+        {
+            "source": 27,
+            "target": 98
+        },
+        {
+            "source": 11,
+            "target": 99
+        },
+        {
+            "source": 0,
+            "target": 100
+        },
+        {
+            "source": 11,
+            "target": 100
+        },
+        {
+            "source": 27,
+            "target": 101
+        },
+        {
+            "source": 0,
+            "target": 102
         }
     ]
 }
