@@ -524,6 +524,16 @@
             "id": 102,
             "label": "В Питере по слоям",
             "link": "https://vk.com/wall536116818_66"
+        },
+        {
+            "id": 103,
+            "label": "Волшебник с рюкзаком",
+            "link": "https://vk.com/wall41555268_2700"
+        },
+        {
+            "id": 104,
+            "label": "Р is for Равновесие",
+            "link": "https://vk.com/wall-160608115_616"
         }
     ],
     "links": [
@@ -1034,6 +1044,18 @@
         {
             "source": 0,
             "target": 102
+        },
+        {
+            "source": 0,
+            "target": 103
+        },
+        {
+            "source": 0,
+            "target": 104
+        },
+        {
+            "source": 1,
+            "target": 104
         }
     ]
 }
