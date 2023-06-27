@@ -1,539 +1,701 @@
 {
+    "authors": [
+        {
+            "id": 0,
+            "name": "Мелалика WerWoelfin Невинная",
+            "link": "https://vk.com/verbum_dictum"
+        },
+        {
+            "id": 1,
+            "name": "Ирина Левиафан Иванова",
+            "link": "https://vk.com/joullu"
+        },
+        {
+            "id": 2,
+            "name": "Псевдоним автора",
+            "link": "https://vk.com/cdefecrit"
+        },
+        {
+            "id": 3,
+            "name": "Наталья Шишкина",
+            "link": "https://vk.com/natalee_angel"
+        },
+        {
+            "id": 4,
+            "name": "Айя-Айрен",
+            "link": "https://vk.com/ayatxt"
+        },
+        {
+            "id": 5,
+            "name": "Книжный Волк",
+            "link": "https://vk.com/volk_avtor"
+        },
+        {
+            "id": 6,
+            "name": "Валентина Осколкова",
+            "link": "https://vk.com/nowhember_books"
+        },
+        {
+            "id": 7,
+            "name": "Натали Смит",
+            "link": "https://vk.com/minstrelportal"
+        },
+        {
+            "id": 8,
+            "name": "Василий Карпов",
+            "link": "https://vk.com/id16559785"
+        },
+        {
+            "id": 9,
+            "name": "Полина Дежнева",
+            "link": "https://vk.com/dyevotchka"
+        },
+        {
+            "id": 10,
+            "name": "Инкогнито",
+            "link": "null"
+        }
+    ],
     "nodes": [
         {
             "id": "0",
-            "label": "Андрюха, у нас...",
+            "label": "Андрюха, у нас…",
             "link": "https://vk.com/@verbum_dictum-priklucheniya-andruhi-i-slavki",
-            "canon": true
+            "canon": true,
+            "author": 0
         },
         {
             "id": "1",
             "label": "Хтонь в пальто",
             "link": "https://vk.com/wall-103479964_4365",
-            "canon": true
+            "canon": true,
+            "author": 1
         },
         {
             "id": "2",
-            "label": "Андрюха, у нас... Славка таки славка",
+            "label": "Андрюха, у нас… Славка таки славка",
             "link": "https://vk.com/wall-110887427_711",
-            "canon": false
+            "canon": false,
+            "author": 2
         },
         {
             "id": 3,
-            "label": "Андрюха, у нас... Шведские коллекторы?",
-            "link": "https://vk.com/wall-74962618_171123"
+            "label": "Андрюха, у нас… Шведские коллекторы?",
+            "link": "https://vk.com/wall-74962618_171123",
+            "author": 1
         },
         {
             "id": 4,
             "label": "Колыбельная для птицы и шакала",
-            "link": "https://vk.com/wall-156238751_4891"
+            "link": "https://vk.com/wall-156238751_4891",
+            "author": 4
         },
         {
             "id": 5,
             "label": "Безумная дача, или Ворон, шакал, белочка и двадцать шесть славок",
-            "link": "https://vk.com/wall-156238751_4993"
+            "link": "https://vk.com/wall-156238751_4993",
+            "author": 4
         },
         {
             "id": 6,
-            "label": "Андрюха, у нас... нет времени!",
-            "link": "https://vk.com/wall-213264704_2311"
+            "label": "Андрюха, у нас… нет времени!",
+            "link": "https://vk.com/wall-213264704_2311",
+            "author": 3
         },
         {
             "id": 7,
             "label": "Тени Литейного. Ненастоящий каток",
-            "link": "https://vk.com/wall-213264704_4331"
+            "link": "https://vk.com/wall-213264704_4331",
+            "author": 3
         },
         {
             "id": 8,
             "label": "Тени Литейного. Не в сети",
-            "link": "https://vk.com/wall-213264704_5757"
+            "link": "https://vk.com/wall-213264704_5757",
+            "author": 3
         },
         {
             "id": 9,
             "label": "Обычная Магия",
             "link": "https://vk.com/@volk_avtor-obychnaya-magiya",
-            "canon": true
+            "canon": true,
+            "author": 5
         },
         {
             "id": 10,
-            "label": "Андрюха, у нас... Обычная магия",
-            "link": "https://vk.com/wall-110887427_637"
+            "label": "Андрюха, у нас… Обычная магия",
+            "link": "https://vk.com/wall-110887427_637",
+            "author": 2
         },
         {
             "id": 11,
             "label": "Открывающие двери",
             "link": "https://vk.com/wall-213264704_4620",
-            "canon": true
+            "canon": true,
+            "author": 0
         },
         {
             "id": 12,
-            "label": "Андрюха, у нас... Центр вселенной",
-            "link": "https://vk.com/wall-110887427_639"
+            "label": "Андрюха, у нас… Центр вселенной",
+            "link": "https://vk.com/wall-110887427_639",
+            "author": 2
         },
         {
             "id": 13,
             "label": "Андрюха, у нас считалочка для бомбы",
-            "link": "https://vk.com/wall-110887427_643"
+            "link": "https://vk.com/wall-110887427_643",
+            "author": 2
         },
         {
             "id": 14,
             "label": "Андрюха, у нас пи равно трем",
-            "link": "https://vk.com/wall-110887427_646"
+            "link": "https://vk.com/wall-110887427_646",
+            "author": 2
         },
         {
             "id": 15,
             "label": "Андрюха, у нас пятое высшее",
-            "link": "https://vk.com/wall-110887427_648"
+            "link": "https://vk.com/wall-110887427_648",
+            "author": 2
         },
         {
             "id": 16,
             "label": "Записки сферического психоаналитика",
             "link": "https://vk.com/wall-213264704?q=%23%D0%A1%D1%84%D0%B5%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D0%BF%D1%81%D0%B8%D1%85%D0%BE%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA",
-            "canon": true
+            "canon": true,
+            "author": 0
         },
         {
             "id": 17,
             "label": "На календаре Несмеянин день",
-            "link": "https://vk.com/wall-110887427_651"
+            "link": "https://vk.com/wall-110887427_651",
+            "author": 2
         },
         {
             "id": 18,
             "label": "Слава, сказано",
-            "link": "https://vk.com/wall-110887427_653"
+            "link": "https://vk.com/wall-110887427_653",
+            "author": 2
         },
         {
             "id": 19,
             "label": "Золотые купола",
-            "link": "https://vk.com/wall-110887427_656"
+            "link": "https://vk.com/wall-110887427_656",
+            "author": 2
         },
         {
             "id": 20,
             "label": "Хлебное место",
-            "link": "https://vk.com/wall-110887427_677"
+            "link": "https://vk.com/wall-110887427_677",
+            "author": 2
         },
         {
             "id": 21,
             "label": "Фельетон-фельетон-фельетонище",
-            "link": "https://vk.com/wall-110887427_683"
+            "link": "https://vk.com/wall-110887427_683",
+            "author": 2
         },
         {
             "id": 22,
-            "label": "Андрюха, у нас... бытовой BDSM",
-            "link": "https://vk.com/wall-110887427_703"
+            "label": "Андрюха, у нас… бытовой BDSM",
+            "link": "https://vk.com/wall-110887427_703",
+            "author": 2
         },
         {
             "id": 23,
             "label": "Андрюха, у нас… Перед ведьмой хтонь в пальто",
-            "link": "https://vk.com/wall-213264704_997"
+            "link": "https://vk.com/wall-213264704_997",
+            "author": 0
         },
         {
             "id": 24,
             "label": "Андрюха, у нас… четвертая стена",
-            "link": "https://vk.com/wall-110887427_713"
+            "link": "https://vk.com/wall-110887427_713",
+            "author": 2
         },
         {
             "id": 25,
             "label": "Съешь меня",
-            "link": "https://vk.com/wall-110887427_733"
+            "link": "https://vk.com/wall-110887427_733",
+            "author": 2
         },
         {
             "id": 26,
             "label": "Обычная магия в пальто",
-            "link": "https://vk.com/wall-110887427_750"
+            "link": "https://vk.com/wall-110887427_750",
+            "author": 2
         },
         {
             "id": 27,
-            "label": "Письма из...",
+            "label": "Письма из…",
             "link": "https://vk.com/@verbum_dictum-cikl-pisma-iz",
-            "canon": true
+            "canon": true,
+            "author": 0
         },
         {
             "id": 28,
             "label": "Трудности орфографии",
-            "link": "https://vk.com/wall-110887427_767"
+            "link": "https://vk.com/wall-110887427_767",
+            "author": 2
         },
         {
             "id": 29,
             "label": "Сказки метрополитена",
             "link": "https://vk.com/feed?c%5Bq%5D=%23%F1%EA%E0%E7%EA%E8%EC%E5%F2%F0%EE%EF%EE%EB%E8%F2%E5%ED%E0%40nowhember_books",
-            "canon": true
+            "canon": true,
+            "author": 6
         },
         {
             "id": 30,
             "label": "Дурной трудоголизм Вика",
-            "link": "https://vk.com/wall-110887427_772"
+            "link": "https://vk.com/wall-110887427_772",
+            "author": 2
         },
         {
             "id": 31,
             "label": "Кроссовер, где кого-то жрут",
-            "link": "https://vk.com/wall-99595208_5162"
+            "link": "https://vk.com/wall-99595208_5162",
+            "author": 1
         },
         {
             "id": 32,
             "label": "Кроссовер дубль два",
-            "link": "https://vk.com/wall-99595208_5164"
+            "link": "https://vk.com/wall-99595208_5164",
+            "author": 1
         },
         {
             "id": 33,
             "label": "Кроссовер про Вика Рахманина",
-            "link": "https://vk.com/wall-99595208_5264"
+            "link": "https://vk.com/wall-99595208_5264",
+            "author": 1
         },
         {
             "id": 34,
             "label": "Что у тебя с лицом?",
-            "link": "https://vk.com/wall-99595208_5292"
+            "link": "https://vk.com/wall-99595208_5292",
+            "author": 1
         },
         {
             "id": 35,
             "label": "Андрюха, у нас плохая осанка",
-            "link": "https://vk.com/wall-110887427_787"
+            "link": "https://vk.com/wall-110887427_787",
+            "author": 2
         },
         {
             "id": 36,
             "label": "Дурные загоны безголового шакала",
-            "link": "https://vk.com/wall-110887427_795"
+            "link": "https://vk.com/wall-110887427_795",
+            "author": 2
         },
         {
             "id": 37,
             "label": "Это не галлюцинация",
-            "link": "https://vk.com/wall-99595208_5301"
+            "link": "https://vk.com/wall-99595208_5301",
+            "author": 1
         },
         {
             "id": 38,
             "label": "Вообще-то Вик не курит",
-            "link": "https://vk.com/wall-99595208_5309"
+            "link": "https://vk.com/wall-99595208_5309",
+            "author": 1
         },
         {
             "id": 39,
             "label": "Если ты решил стать шпагоглотателем",
-            "link": "https://vk.com/wall-99595208_5316"
+            "link": "https://vk.com/wall-99595208_5316",
+            "author": 1
         },
         {
             "id": 40,
             "label": "А потом она просыпается",
-            "link": "https://vk.com/wall-110887427_806"
+            "link": "https://vk.com/wall-110887427_806",
+            "author": 2
         },
         {
             "id": 41,
-            "label": "Андрюха, у нас... Велимиров, глючь!",
-            "link": "https://vk.com/wall-110887427_814"
+            "label": "Андрюха, у нас… Велимиров, глючь!",
+            "link": "https://vk.com/wall-110887427_814",
+            "author": 2
         },
         {
             "id": 42,
             "label": "Андрюха у нас хтонь в пальто",
-            "link": "https://vk.com/wall-110887427_816"
+            "link": "https://vk.com/wall-110887427_816",
+            "author": 2
         },
         {
             "id": 43,
             "label": "Вик у сферического психоаналитика",
-            "link": "https://vk.com/wall-99595208_5353"
+            "link": "https://vk.com/wall-99595208_5353",
+            "author": 1
         },
         {
             "id": 44,
             "label": "Младший — вовсе был дурак",
-            "link": "https://vk.com/wall-99595208_5361"
+            "link": "https://vk.com/wall-99595208_5361",
+            "author": 1
         },
         {
             "id": 45,
-            "label": "У нее такая жопа...",
-            "link": "https://vk.com/wall-110887427_824"
+            "label": "У нее такая жопа…",
+            "link": "https://vk.com/wall-110887427_824",
+            "author": 2
         },
         {
             "id": 46,
             "label": "Андрюха, у нас нейросеть",
-            "link": "https://vk.com/wall-110887427_827"
+            "link": "https://vk.com/wall-110887427_827",
+            "author": 2
         },
         {
             "id": 47,
             "label": "Кроссовер с «Концом света»",
-            "link": "https://vk.com/wall-99595208_5367"
+            "link": "https://vk.com/wall-99595208_5367",
+            "author": 1
         },
         {
             "id": 48,
             "label": "Метрошному монстру скучать некогда",
-            "link": "https://vk.com/wall-149487088_2060"
+            "link": "https://vk.com/wall-149487088_2060",
+            "author": 6
         },
         {
             "id": 49,
             "label": "Кроссовер, где Вик знакомится с Лизой",
-            "link": "https://vk.com/wall-99595208_5371"
+            "link": "https://vk.com/wall-99595208_5371",
+            "author": 1
         },
         {
             "id": 50,
             "label": "В животе у Вика щебечут птицы",
-            "link": "https://vk.com/wall-99595208_5392"
+            "link": "https://vk.com/wall-99595208_5392",
+            "author": 1
         },
         {
             "id": 51,
             "label": "Блог Бабы Яги",
             "link": "https://vk.com/yagablog",
-            "canon": true
+            "canon": true,
+            "author": 7
         },
         {
             "id": 52,
             "label": "Андрюха, у нас летописец",
-            "link": "https://vk.com/wall-110887427_834"
+            "link": "https://vk.com/wall-110887427_834",
+            "author": 2
         },
         {
             "id": 53,
             "label": "Аё, у нас шакал с салфеточкой",
-            "link": "https://vk.com/wall-110887427_846"
+            "link": "https://vk.com/wall-110887427_846",
+            "author": 2
         },
         {
             "id": 54,
             "label": "Можно я тебя съем",
-            "link": "https://vk.com/wall-99595208_5429"
+            "link": "https://vk.com/wall-99595208_5429",
+            "author": 1
         },
         {
             "id": 55,
             "label": "Открой пасть",
-            "link": "https://vk.com/wall-99595208_5434"
+            "link": "https://vk.com/wall-99595208_5434",
+            "author": 1
         },
         {
             "id": 56,
             "label": "Летописец. Заметка № -1. Кстати о птичках",
-            "link": "https://vk.com/wall-110887427_858"
+            "link": "https://vk.com/wall-110887427_858",
+            "author": 2
         },
         {
             "id": 57,
             "label": "Ужин при свечах",
-            "link": "https://vk.com/wall-99595208_5454"
+            "link": "https://vk.com/wall-99595208_5454",
+            "author": 1
         },
         {
             "id": 58,
             "label": "Кроссовер с картами",
-            "link": "https://vk.com/wall-99595208_5463"
+            "link": "https://vk.com/wall-99595208_5463",
+            "author": 1
         },
         {
             "id": 59,
             "label": "Помнишь, тогда, в общаге",
-            "link": "https://vk.com/wall-99595208_5481"
+            "link": "https://vk.com/wall-99595208_5481",
+            "author": 1
         },
         {
             "id": 60,
-            "label": "Андрюха, у нас в рюкзаке...",
-            "link": "https://vk.com/wall-110887427_866"
+            "label": "Андрюха, у нас в рюкзаке…",
+            "link": "https://vk.com/wall-110887427_866",
+            "author": 2
         },
         {
             "id": 61,
             "label": "Кроссовер Вика с Чудовым",
-            "link": "https://vk.com/wall-99595208_5485"
+            "link": "https://vk.com/wall-99595208_5485",
+            "author": 1
         },
         {
             "id": 62,
-            "label": "Будь ты хоть корюшкой...",
-            "link": "https://vk.com/wall-110887427_876"
+            "label": "Будь ты хоть корюшкой…",
+            "link": "https://vk.com/wall-110887427_876",
+            "author": 2
         },
         {
             "id": 63,
             "label": "Гранит наук",
-            "link": "https://vk.com/wall-110887427_884"
+            "link": "https://vk.com/wall-110887427_884",
+            "author": 2
         },
         {
             "id": 64,
             "label": "С высоты птичьего полета",
-            "link": "https://vk.com/wall-110887427_887"
+            "link": "https://vk.com/wall-110887427_887",
+            "author": 2
         },
         {
             "id": 65,
             "label": "Загадочный кроссовер",
-            "link": "https://vk.com/wall-99595208_5505"
+            "link": "https://vk.com/wall-99595208_5505",
+            "author": 1
         },
         {
             "id": 66,
             "label": "Питер пахнет жареным",
-            "link": "https://vk.com/wall-110887427_892"
+            "link": "https://vk.com/wall-110887427_892",
+            "author": 2
         },
         {
             "id": 67,
-            "label": "Андрюха, у нас... осел, козел и многоножка Мишка",
-            "link": "https://vk.com/wall-110887427_910"
+            "label": "Андрюха, у нас… осел, козел и многоножка Мишка",
+            "link": "https://vk.com/wall-110887427_910",
+            "author": 2
         },
         {
             "id": 68,
             "label": "Вик-студент рыдает в Славку",
-            "link": "https://vk.com/wall-99595208_5538"
+            "link": "https://vk.com/wall-99595208_5538",
+            "author": 1
         },
         {
             "id": 69,
-            "label": "...у нас лужица",
-            "link": "https://vk.com/wall-110887427_916"
+            "label": "…у нас лужица",
+            "link": "https://vk.com/wall-110887427_916",
+            "author": 2
         },
         {
             "id": 70,
-            "label": "...у нас шаверма",
-            "link": "https://vk.com/wall-110887427_922"
+            "label": "…у нас шаверма",
+            "link": "https://vk.com/wall-110887427_922",
+            "author": 2
         },
         {
             "id": 71,
-            "label": "...вот что значит запятайя",
-            "link": "https://vk.com/wall-110887427_925"
+            "label": "…вот что значит запятайя",
+            "link": "https://vk.com/wall-110887427_925",
+            "author": 2
         },
         {
             "id": 72,
             "label": "Славка находит Вика в коридоре",
-            "link": "https://vk.com/wall-99595208_5553"
+            "link": "https://vk.com/wall-99595208_5553",
+            "author": 1
         },
         {
             "id": 73,
             "label": "Ты чёртов трудоголик, ворчит Лютый",
-            "link": "https://vk.com/wall-99595208_5561"
+            "link": "https://vk.com/wall-99595208_5561",
+            "author": 1
         },
         {
             "id": 74,
             "label": "Яна идёт на станцию встречать Фросеньку",
-            "link": "https://vk.com/wall-99595208_5566"
+            "link": "https://vk.com/wall-99595208_5566",
+            "author": 1
         },
         {
             "id": 75,
             "label": "Андрюха, нам нужен наблюдающий",
-            "link": "https://vk.com/wall-110887427_935"
+            "link": "https://vk.com/wall-110887427_935",
+            "author": 2
         },
         {
             "id": 76,
-            "label": "...у нас станция без таблички",
-            "link": "https://vk.com/wall-110887427_937"
+            "label": "…у нас станция без таблички",
+            "link": "https://vk.com/wall-110887427_937",
+            "author": 2
         },
         {
             "id": 77,
             "label": "Андрюха, у нас челлендж про жопу",
-            "link": "https://vk.com/wall-160608115_912"
+            "link": "https://vk.com/wall-160608115_912",
+            "author": 2
         },
         {
             "id": 78,
             "label": "Я не я, жопа не моя",
-            "link": "https://vk.com/wall-160608115_914"
+            "link": "https://vk.com/wall-160608115_914",
+            "author": 2
         },
         {
             "id": 79,
             "label": "Жопа отвалилась",
-            "link": "https://vk.com/wall-160608115_919"
+            "link": "https://vk.com/wall-160608115_919",
+            "author": 2
         },
         {
             "id": 80,
             "label": "За белым котиком",
             "link": "https://vk.com/wall-74962618_231409",
-            "canon": true
+            "canon": true,
+            "author": 0
         },
         {
             "id": 81,
             "label": "Устранение неполадок в волшебной кофейне",
-            "link": "https://vk.com/wall-74962618_238216"
+            "link": "https://vk.com/wall-74962618_238216",
+            "author": 8
         },
         {
             "id": 82,
-            "label": "На самом деле...",
-            "link": "https://vk.com/wall-110887427_689"
+            "label": "На самом деле…",
+            "link": "https://vk.com/wall-110887427_689",
+            "author": 2
         },
         {
             "id": 83,
             "label": "А Рагнарёком здесь и не пахнет",
-            "link": "https://vk.com/wall-99595208_5159"
+            "link": "https://vk.com/wall-99595208_5159",
+            "author": 1
         },
         {
             "id": 84,
             "label": "За снежными котятами",
-            "link": "https://vk.com/wall-213264704_4910"
+            "link": "https://vk.com/wall-213264704_4910",
+            "author": 3
         },
         {
             "id": 85,
             "label": "За рыжим воришкой",
-            "link": "https://vk.com/wall-213264704_4958"
+            "link": "https://vk.com/wall-213264704_4958",
+            "author": 3
         },
         {
             "id": 86,
             "label": "Софийка подходит к кофейне",
-            "link": "https://vk.com/wall-99595208_5200"
+            "link": "https://vk.com/wall-99595208_5200",
+            "author": 1
         },
         {
             "id": 87,
             "label": "За бедным Йориком",
-            "link": "https://vk.com/wall-110887427_742"
+            "link": "https://vk.com/wall-110887427_742",
+            "author": 2
         },
         {
             "id": 88,
             "label": "Я человек не суеверный",
-            "link": "https://vk.com/wall-99595208_5218"
+            "link": "https://vk.com/wall-99595208_5218",
+            "author": 1
         },
         {
             "id": 89,
             "label": "За черной курицей",
-            "link": "https://vk.com/wall-110887427_760"
+            "link": "https://vk.com/wall-110887427_760",
+            "author": 2
         },
         {
             "id": 90,
             "label": "Ерш твою медь, или Андрюха, у нас антология",
-            "link": "https://vk.com/wall-110887427_790"
+            "link": "https://vk.com/wall-110887427_790",
+            "author": 2
         },
         {
             "id": 91,
             "label": "За кофе с булкой",
-            "link": "https://vk.com/wall-184200006_111"
+            "link": "https://vk.com/wall-184200006_111",
+            "author": 8
         },
         {
             "id": 92,
             "label": "Письма из Петербурга. P. P. S.",
-            "link": "https://vk.com/wall-213264704_4864"
+            "link": "https://vk.com/wall-213264704_4864",
+            "author": 10
         },
         {
             "id": 93,
             "label": "Городу снятся цветастые сны",
-            "link": "https://vk.com/wall-161170547_44"
+            "link": "https://vk.com/wall-161170547_44",
+            "author": 9
         },
         {
             "id": 94,
             "label": "Окольцованные троллейбусы",
-            "link": "https://vk.com/wall-161170547_45"
+            "link": "https://vk.com/wall-161170547_45",
+            "author": 9
         },
         {
             "id": 95,
             "label": "Теперь это всё твоё",
-            "link": "https://vk.com/wall-161170547_46"
+            "link": "https://vk.com/wall-161170547_46",
+            "author": 9
         },
         {
             "id": 96,
             "label": "Колдунья Ефросинья",
-            "link": "https://vk.com/wall-161170547_47"
+            "link": "https://vk.com/wall-161170547_47",
+            "author": 9
         },
         {
             "id": 97,
             "label": "У меня зазвонил телефон",
-            "link": "https://vk.com/wall-74962618_233215"
+            "link": "https://vk.com/wall-74962618_233215",
+            "author": 9
         },
         {
             "id": 98,
-            "label": "Всё начиналось... с красных кроссовок",
-            "link": "https://vk.com/wall536116818_54"
+            "label": "Всё начиналось… с красных кроссовок",
+            "link": "https://vk.com/wall536116818_54",
+            "author": 9
         },
         {
             "id": 99,
             "label": "Шагаю я одна",
-            "link": "https://vk.com/wall536116818_55"
+            "link": "https://vk.com/wall536116818_55",
+            "author": 9
         },
         {
             "id": 100,
             "label": "Раз ночью пришел Андрюха",
-            "link": "https://vk.com/wall536116818_56"
+            "link": "https://vk.com/wall536116818_56",
+            "author": 9
         },
         {
             "id": 101,
             "label": "Полпеченья и чай из блюдечка",
-            "link": "https://vk.com/wall536116818_61"
+            "link": "https://vk.com/wall536116818_61",
+            "author": 9
         },
         {
             "id": 102,
             "label": "В Питере по слоям",
-            "link": "https://vk.com/wall536116818_66"
+            "link": "https://vk.com/wall536116818_66",
+            "author": 9
         },
         {
             "id": 103,
             "label": "Волшебник с рюкзаком",
-            "link": "https://vk.com/wall41555268_2700"
+            "link": "https://vk.com/wall41555268_2700",
+            "author": 3
         },
         {
             "id": 104,
             "label": "Р is for Равновесие",
-            "link": "https://vk.com/wall-160608115_616"
+            "link": "https://vk.com/wall-160608115_616",
+            "author": 1
         }
     ],
     "links": [
