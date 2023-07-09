@@ -696,6 +696,12 @@
             "label": "Р is for Равновесие",
             "link": "https://vk.com/wall-160608115_616",
             "author": 1
+        },
+        {
+            "id": 105,
+            "label": "Десять раз и снова",
+            "link": "https://vk.com/wall-110887427_960",
+            "author": 2
         }
     ],
     "links": [
@@ -1218,6 +1224,10 @@
         {
             "source": 1,
             "target": 104
+        },
+        {
+            "source": 74,
+            "target": 105
         }
     ]
 }
