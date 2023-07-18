@@ -702,6 +702,12 @@
             "label": "Десять раз и снова",
             "link": "https://vk.com/wall-110887427_960",
             "author": 2
+        },
+        {
+            "id": 106,
+            "label": "Шарики за ролики",
+            "link": "https://vk.com/wall-110887427_963",
+            "author": 2
         }
     ],
     "links": [
@@ -1228,6 +1234,10 @@
         {
             "source": 74,
             "target": 105
+        },
+        {
+            "source": 105,
+            "target": 106
         }
     ]
 }
