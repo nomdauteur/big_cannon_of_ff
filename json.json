@@ -708,6 +708,19 @@
             "label": "Шарики за ролики",
             "link": "https://vk.com/wall-110887427_963",
             "author": 2
+        },
+        {
+            "id": 107,
+            "label": "https://vk.com/wall-74962618_277396",
+            "link": "(Не)хорошая квартира",
+            "author": 0,
+            "canon": true
+        },
+        {
+            "id": 108,
+            "label": "https://vk.com/wall-110887427_964",
+            "link": "[Не]правильное питание. Перемена ест слагаемых",
+            "author": 2
         }
     ],
     "links": [
@@ -1238,6 +1251,14 @@
         {
             "source": 105,
             "target": 106
+        },
+        {
+            "source": 1,
+            "target": 108
+        },
+        {
+            "source": 2,
+            "target": 108
         }
     ]
 }
