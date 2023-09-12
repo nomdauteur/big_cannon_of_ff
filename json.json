@@ -727,6 +727,19 @@
             "label": "У Андрюхи в кармане монета",
             "link": "https://vk.com/wall-99595208_5598",
             "author": 1
+        },
+        {
+            "id": 110,
+            "label": "Ключ всех ключей",
+            "link": "https://vk.com/@verbum_dictum-kluch-vseh-kluchei",
+            "canon": true,
+            "author": 0
+        },
+        {
+            "id": 111,
+            "label": "За черным Вороном",
+            "link": "https://vk.com/wall-110887427_970",
+            "author":2
         }
     ],
     "links": [
@@ -1273,6 +1286,14 @@
         {
             "source": 1,
             "target": 109
+        },
+        {
+            "source": 82,
+            "target": 111
+        },
+        {
+            "source": 110,
+            "target": 111
         }
     ]
 }
