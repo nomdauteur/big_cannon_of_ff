@@ -740,6 +740,12 @@
             "label": "За черным Вороном",
             "link": "https://vk.com/wall-110887427_970",
             "author":2
+        },
+        {
+            "id": 112,
+            "label": "Раскрывающие крылья",
+            "link": "https://vk.com/wall-110887427_983",
+            "author": 2
         }
     ],
     "links": [
@@ -1294,6 +1300,10 @@
         {
             "source": 110,
             "target": 111
+        },
+        {
+            "source": 20,
+            "target": 112
         }
     ]
 }
