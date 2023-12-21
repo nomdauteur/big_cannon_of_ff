@@ -776,6 +776,18 @@
             "label": "Словами через хвост",
             "link": "https://vk.com/wall-110887427_1000",
             "author": 2
+        },
+        {
+            "id": 118,
+            "link": "https://vk.com/wall-110887427_1003",
+            "label": "Хрен там плавал",
+            "author": 2
+        },
+        {
+            "id": 119,
+            "label": "Вот что значит буква «й»",
+            "link": "https://vk.com/wall-110887427_1007",
+            "author": 2
         }
     ],
     "links": [
@@ -1362,6 +1374,14 @@
         {
             "source": 110,
             "target": 117
+        },
+        {
+            "source": 105,
+            "target": 118
+        },
+        {
+            "source": 71,
+            "target": 119
         }
     ]
 }
