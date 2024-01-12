@@ -788,6 +788,12 @@
             "label": "Вот что значит буква «й»",
             "link": "https://vk.com/wall-110887427_1007",
             "author": 2
+        },
+        {
+            "id": 120,
+            "label": "Рагнарек",
+            "link": "https://vk.com/wall-213264704_9891",
+            "author": 0
         }
     ],
     "links": [
@@ -1382,6 +1388,22 @@
         {
             "source": 71,
             "target": 119
+        },
+        {
+            "source": 0,
+            "target": 120
+        },
+        {
+            "source": 1,
+            "target": 120
+        },
+        {
+            "source": 27,
+            "target": 120
+        },
+        {
+            "source": 64,
+            "target": 120
         }
     ]
 }
