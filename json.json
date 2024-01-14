@@ -794,6 +794,12 @@
             "label": "Рагнарек",
             "link": "https://vk.com/wall-213264704_9891",
             "author": 0
+        },
+        {
+            "id": 121,
+            "label": "Письма с мантикора",
+            "link": "https://vk.com/wall-110887427_1009",
+            "author": 2
         }
     ],
     "links": [
@@ -1404,6 +1410,10 @@
         {
             "source": 71,
             "target": 120
+        },
+        {
+            "source": 27,
+            "target": 121
         }
     ]
 }
