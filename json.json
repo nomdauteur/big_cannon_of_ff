@@ -800,6 +800,12 @@
             "label": "Письма с мантикора",
             "link": "https://vk.com/wall-110887427_1009",
             "author": 2
+        },
+        {
+            "id": 122,
+            "label": "Доброе утро",
+            "link": "https://vk.com/wall-110887427_1026",
+            "author": 2
         }
     ],
     "links": [
@@ -1414,6 +1420,10 @@
         {
             "source": 27,
             "target": 121
+        },
+        {
+            "source": 2,
+            "target": 122
         }
     ]
 }
