@@ -806,6 +806,12 @@
             "label": "Доброе утро",
             "link": "https://vk.com/wall-110887427_1026",
             "author": 2
+        },
+        {
+            "id": 123,
+            "label": "И было слово",
+            "link": "https://vk.com/wall536116818_79",
+            "author": 7
         }
     ],
     "links": [
@@ -1424,6 +1430,10 @@
         {
             "source": 2,
             "target": 122
+        },
+        {
+            "source": 0,
+            "target": 123
         }
     ]
 }
