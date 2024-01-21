@@ -812,6 +812,12 @@
             "label": "И было слово",
             "link": "https://vk.com/wall536116818_79",
             "author": 9
+        },
+        {
+            "id": 124,
+            "label": "Андрюха, у нас... плюшки",
+            "link": "https://vk.com/wall-110887427_1032",
+            "author": 2
         }
     ],
     "links": [
@@ -1434,6 +1440,10 @@
         {
             "source": 0,
             "target": 123
+        },
+        {
+            "source": 0,
+            "target": 124
         }
     ]
 }
