@@ -830,6 +830,12 @@
             "label": "Автохтоном по галактике",
             "link": "https://vk.com/wall-110887427_1037",
             "author": 2
+        },
+        {
+            "id": 127,
+            "label": "Андрюха, у нас… архитектор",
+            "link": "https://vk.com/wall-110887427_1042",
+            "author": 2
         }
     ],
     "links": [
@@ -1464,6 +1470,18 @@
         {
             "source": 25,
             "target": 126
+        },
+        {
+            "source": 0,
+            "target": 127
+        },
+        {
+            "source": 110,
+            "target": 127
+        },
+        {
+            "source": 27,
+            "target": 127
         }
     ]
 }
