@@ -836,6 +836,12 @@
             "label": "Андрюха, у нас… архитектор",
             "link": "https://vk.com/wall-110887427_1042",
             "author": 2
+        },
+        {
+            "id": 128,
+            "label": "Белая ворона",
+            "link": "https://vk.com/wall-213264704_10781",
+            "author": 3
         }
     ],
     "links": [
@@ -1482,6 +1488,10 @@
         {
             "source": 27,
             "target": 127
+        },
+        {
+            "source": 110,
+            "target": 128
         }
     ]
 }
