@@ -842,6 +842,12 @@
             "label": "Белая ворона",
             "link": "https://vk.com/wall-213264704_10781",
             "author": 3
+        },
+        {
+            "id": 129,
+            "label": "Горячая выпечка",
+            "link": "https://vk.com/wall-110887427_1060",
+            "author": 2
         }
     ],
     "links": [
@@ -1492,6 +1498,14 @@
         {
             "source": 110,
             "target": 128
+        },
+        {
+            "source": 1,
+            "target": 129
+        },
+        {
+            "source": 27,
+            "target": 129
         }
     ]
 }
