@@ -848,6 +848,12 @@
             "label": "Горячая выпечка",
             "link": "https://vk.com/wall-110887427_1060",
             "author": 2
+        },
+        {
+            "id": 130,
+            "label": "Заходит в кофейню Дагмар",
+            "link": "https://vk.com/wall-99595208_5820",
+            "author": 1
         }
     ],
     "links": [
@@ -1506,6 +1512,14 @@
         {
             "source": 27,
             "target": 129
+        },
+        {
+            "source": 107,
+            "target": 130
+        },
+        {
+            "source": 80,
+            "target": 130
         }
     ]
 }
