@@ -854,6 +854,12 @@
             "label": "Заходит в кофейню Дагмар",
             "link": "https://vk.com/wall-99595208_5820",
             "author": 1
+        },
+        {
+            "id": 131,
+            "label": "За белокурой бестией",
+            "link": "https://vk.com/wall-110887427_1065",
+            "author": 2
         }
     ],
     "links": [
@@ -1520,6 +1526,10 @@
         {
             "source": 80,
             "target": 130
+        },
+        {
+            "source": 130,
+            "target": 131
         }
     ]
 }
