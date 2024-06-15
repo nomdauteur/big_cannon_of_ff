@@ -871,7 +871,7 @@
             "id": 133,
             "label": "Пап, ты мне так тогда и не ответил",
             "link": "https://vk.com/wall-213264704_11544",
-            "author": 108,
+            "author": 0,
             "canon": true
         }
     ],
@@ -1551,6 +1551,10 @@
         {
             "source": 130,
             "target": 132
+        },
+        {
+            "source": 108,
+            "target": 133
         }
     ]
 }
