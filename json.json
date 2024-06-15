@@ -873,6 +873,12 @@
             "link": "https://vk.com/wall-213264704_11544",
             "author": 0,
             "canon": true
+        },
+        {
+            "id": 134,
+            "label": "Что бы ты сделал на моём месте?",
+            "link": "https://vk.com/wall-99595208_5852",
+            "author": 1
         }
     ],
     "links": [
@@ -1555,6 +1561,10 @@
         {
             "source": 108,
             "target": 133
+        },
+        {
+            "source": 132,
+            "target": 134
         }
     ]
 }
