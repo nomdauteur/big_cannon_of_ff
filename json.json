@@ -885,6 +885,12 @@
             "label": "Говорящие клавиши",
             "link": "https://vk.com/wall-110887427_1070",
             "author": 2
+        },
+        {
+            "id": 136,
+            "label": "Утро начинается не с кофе",
+            "link": "https://vk.com/wall-99595208_5871?",
+            "author": 1
         }
     ],
     "links": [
@@ -1575,6 +1581,10 @@
         {
             "source": 133,
             "target": 135
+        },
+        {
+            "source": 134,
+            "target": 136
         }
     ]
 }
