@@ -214,8 +214,9 @@ textarea
       lst.style.left="200px";
       a.appendChild(lst);
       
-
-import data from './json.json';
+import { readFileSync } from "fs";
+const data = JSON.parse(readFileSync("./json.json"));
+//import data from './json.json';
 var links = data.links;
 
 var nodes = data.nodes;
