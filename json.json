@@ -889,7 +889,13 @@
         {
             "id": 136,
             "label": "Утро начинается не с кофе",
-            "link": "https://vk.com/wall-99595208_5871?",
+            "link": "https://vk.com/wall-99595208_5871",
+            "author": 1
+        },
+        {
+            "id": 137,
+            "label": "За белыми лилиями",
+            "link": "https://vk.com/wall-99595208_5902",
             "author": 1
         }
     ],
@@ -1585,6 +1591,10 @@
         {
             "source": 134,
             "target": 136
+        },
+        {
+            "source": 136,
+            "target": 137
         }
     ]
 }
