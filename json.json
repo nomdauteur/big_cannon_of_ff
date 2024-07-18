@@ -897,6 +897,12 @@
             "label": "За белыми лилиями",
             "link": "https://vk.com/wall-99595208_5902",
             "author": 1
+        },
+        {
+            "id": 138,
+            "label": "Андрюха, у нас... труп корюшки",
+            "link": "https://vk.com/wall-110887427_1078",
+            "author": 2
         }
     ],
     "links": [
@@ -1595,6 +1601,10 @@
         {
             "source": 136,
             "target": 137
+        },
+        {
+            "source": 0,
+            "target": 138
         }
     ]
 }
