@@ -915,6 +915,19 @@
             "label": "(Не)подходящая роль",
             "link": "https://vk.com/wall-110887427_1089",
             "author": 2
+        },
+        {
+            "id": 141,
+            "label": "Солнцежор",
+            "link": "https://vk.com/wall-213264704_12095",
+            "author": 3
+        },
+        {
+            "id": 142,
+            "label": "Как я придумал себе собаку",
+            "link": "https://vk.com/wall-213264704_10884",
+            "canon": true,
+            "author": 0
         }
     ],
     "links": [
@@ -1625,6 +1638,14 @@
         {
             "source": 135,
             "target": 140
+        },
+        {
+            "source": 1,
+            "target": 141
+        },
+        {
+            "source": 142,
+            "target": 141
         }
     ]
 }
