@@ -928,6 +928,12 @@
             "link": "https://vk.com/wall-213264704_10884",
             "canon": true,
             "author": 0
+        },
+        {
+            "id": 143,
+            "label": "Дом для мантикоры",
+            "link": "https://vk.com/wall-213264704_12129",
+            "author": 3
         }
     ],
     "links": [
@@ -1646,6 +1652,10 @@
         {
             "source": 142,
             "target": 141
+        },
+        {
+            "source": 107,
+            "target": 143
         }
     ]
 }
