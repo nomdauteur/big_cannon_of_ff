@@ -946,6 +946,12 @@
             "label": "Пели, но боялись сказать",
             "link": "https://vk.com/wall-110887427_1095",
             "author": 2
+        },
+        {
+            "id": 146,
+            "label": "Наблюдаемый",
+            "link": "https://vk.com/wall-110887427_1096",
+            "author": 2
         }
     ],
     "links": [
@@ -1680,6 +1686,10 @@
         {
             "source": 78,
             "target": 145
+        },
+        {
+            "source": 0,
+            "target": 146
         }
     ]
 }
