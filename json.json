@@ -963,7 +963,7 @@
             "id": 148,
             "label": "Социальная сфера",
             "link": "https://vk.com/wall-110887427_1106",
-            "author": 17
+            "author": 2
         }
     ],
     "links": [
@@ -1706,6 +1706,10 @@
         {
             "source": 16,
             "target": 147
+        },
+        {
+            "source": 17,
+            "target": 148
         }
     ]
 }
