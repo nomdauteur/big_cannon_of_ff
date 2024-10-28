@@ -253,7 +253,7 @@ var text = svg.selectAll("node")
 text.attr("xlink:href", function(d) { return (d.link ); });
 //text.attr("xlink:href", function(d) { return ("papers/" + d.name + ".pdf"); });
 
-text.append("svg:circle")
+text.append("svg:circle") 
     .attr("r", r)
     .attr("alpha", .5)
     .attr("fill", function(d){if (d.canon) return "#6aaa64"; else if (d.cherry) return "#7d002f"; return "#fdd700";})
