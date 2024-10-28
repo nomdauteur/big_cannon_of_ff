@@ -793,7 +793,8 @@
             "id": 120,
             "label": "Рагнарек",
             "link": "https://vk.com/wall-213264704_9891",
-            "author": 0
+            "author": 0,
+            "cherry": true
         },
         {
             "id": 121,
