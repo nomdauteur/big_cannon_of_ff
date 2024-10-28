@@ -254,6 +254,10 @@ for (let i = 0; i < nodes.length; i++)
   {
     txt.appendChild(document.createTextNode(String.fromCodePoint(128994)));
   }
+  if (nodes[i]["cherry"])
+  {
+    txt.appendChild(document.createTextNode(String.fromCodePoint(127826)));
+  }
   else 
   {
     txt.appendChild(document.createTextNode(String.fromCodePoint(128993)));

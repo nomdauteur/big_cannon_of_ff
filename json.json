@@ -976,6 +976,13 @@
             "label": "Тени Литейного. Рыжая ностальгия",
             "link": "https://vk.com/wall-213264704_12514?",
             "author": 3
+        },
+        {
+            "id": 151,
+            "label": "Черешня раз",
+            "link": "https://vk.com/wall-213264704_12575",
+            "author": 0,
+            "cherry": true
         }
     ],
     "links": [
@@ -1730,6 +1737,18 @@
         {
             "source": 0,
             "target": 150
+        },
+        {
+            "source": 0,
+            "target": 151
+        },
+        {
+            "source": 1,
+            "target": 151
+        },
+        {
+            "source": 16,
+            "target": 151
         }
     ]
 }

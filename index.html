@@ -115,7 +115,7 @@ text.shadow {
                     
                     d.style.height="200px";
                     d.style.width="500px";
-                    var rules="Как это работает?\n"+String.fromCodePoint(128994)+" — канон.\n"+String.fromCodePoint(128993)+" — фанфики. \nМожно таскать мышью и залипать.\nПо нажатию на кружок открывается ссылка на текст (подозреваю, что только с компьютера).\nЕсли чего-то не хватает, можно добавить по соответствующей кнопке.\n\n";
+                    var rules="Как это работает?\n"+String.fromCodePoint(128994)+" — канон.\n"+String.fromCodePoint(128993)+" — фанфики. \n"+String.fromCodePoint(127826)+" — нечто большее. \nМожно таскать мышью и залипать.\nПо нажатию на кружок открывается ссылка на текст (подозреваю, что только с компьютера).\nЕсли чего-то не хватает, можно добавить по соответствующей кнопке.\n\n";
                     var tn = document.createTextNode(rules);
                     
                     var btn = document.createElement("button");
@@ -256,7 +256,7 @@ text.attr("xlink:href", function(d) { return (d.link ); });
 text.append("svg:circle")
     .attr("r", r)
     .attr("alpha", .5)
-    .attr("fill", function(d){if (d.canon) return "#6aaa64"; return "#fdd700";})
+    .attr("fill", function(d){if (d.canon) return "#6aaa64"; if (d.cherry) return "#7d002f" return "#fdd700";})
     .call(force.drag);
 
 var lines_labels = svg.selectAll("link") //this is moved in this position so that circles don't overlap it
