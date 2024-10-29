@@ -984,6 +984,13 @@
             "link": "https://vk.com/wall-213264704_12575",
             "author": 0,
             "cherry": true
+        },
+        {
+            "id": 152,
+            "label": "Черешня два",
+            "link": "https://vk.com/wall-213264704_12578",
+            "author": 0,
+            "cherry": true
         }
     ],
     "links": [
@@ -1750,6 +1757,10 @@
         {
             "source": 16,
             "target": 151
+        },
+        {
+            "source": 151,
+            "target": 152
         }
     ]
 }
