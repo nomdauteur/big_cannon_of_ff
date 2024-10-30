@@ -991,6 +991,13 @@
             "link": "https://vk.com/wall-213264704_12578",
             "author": 0,
             "cherry": true
+        },
+        {
+            "id": 153,
+            "label": "Черешня три",
+            "link": "https://vk.com/wall-213264704_12581",
+            "author": 0,
+            "cherry": true
         }
     ],
     "links": [
@@ -1761,6 +1768,10 @@
         {
             "source": 151,
             "target": 152
+        },
+        {
+            "source": 152,
+            "target": 153
         }
     ]
 }
