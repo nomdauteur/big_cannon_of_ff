@@ -998,6 +998,13 @@
             "link": "https://vk.com/wall-213264704_12581",
             "author": 0,
             "cherry": true
+        },
+        {
+            "id": 154,
+            "label": "Черешня четыре",
+            "link": "https://vk.com/wall-213264704_12592",
+            "author": 0,
+            "cherry": true
         }
     ],
     "links": [
@@ -1772,6 +1779,10 @@
         {
             "source": 152,
             "target": 153
+        },
+        {
+            "source": 153,
+            "target": 154
         }
     ]
 }
