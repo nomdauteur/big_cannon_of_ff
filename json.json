@@ -1005,6 +1005,13 @@
             "link": "https://vk.com/wall-213264704_12592",
             "author": 0,
             "cherry": true
+        },
+        {
+            "id": 155,
+            "label": "Черешня пять",
+            "link": "https://vk.com/wall-213264704_12599",
+            "author": 0,
+            "cherry": true
         }
     ],
     "links": [
@@ -1783,6 +1790,10 @@
         {
             "source": 153,
             "target": 154
+        },
+        {
+            "source": 154,
+            "target": 155
         }
     ]
 }
