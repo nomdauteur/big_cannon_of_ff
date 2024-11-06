@@ -1012,6 +1012,13 @@
             "link": "https://vk.com/wall-213264704_12599",
             "author": 0,
             "cherry": true
+        },
+        {
+            "id": 156,
+            "label": "Хтонометр зашакаливает",
+            "link": "https://vk.com/wall-213264704_12633",
+            "author": 2,
+            "cherry": true
         }
     ],
     "links": [
@@ -1794,6 +1801,10 @@
         {
             "source": 154,
             "target": 155
+        },
+        {
+            "source": 155,
+            "target": 156
         }
     ]
 }
