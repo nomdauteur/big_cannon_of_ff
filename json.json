@@ -1025,6 +1025,12 @@
             "label": "По частям",
             "link": "https://vk.com/wall-110887427_1111",
             "author": 2
+        },
+        {
+            "id": 158,
+            "label": "Где-то в петербуржности",
+            "link": "https://vk.com/wall-213264704_12769",
+            "author": 2
         }
     ],
     "links": [
@@ -1815,6 +1821,10 @@
         {
             "source": 110,
             "target": 157
+        },
+        {
+            "source": 110,
+            "target": 158
         }
     ]
 }
