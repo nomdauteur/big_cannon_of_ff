@@ -1031,6 +1031,12 @@
             "label": "Где-то в петербуржности",
             "link": "https://vk.com/wall-213264704_12769",
             "author": 3
+        },
+        {
+            "id": 159,
+            "label": "Это на Новый год",
+            "link": "https://vk.com/wall-110887427_1192",
+            "author": 2
         }
     ],
     "links": [
@@ -1825,6 +1831,10 @@
         {
             "source": 110,
             "target": 158
+        },
+        {
+            "source": 0,
+            "target": 159
         }
     ]
 }
