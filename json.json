@@ -1037,6 +1037,13 @@
             "label": "Это на Новый год",
             "link": "https://vk.com/wall-110887427_1192",
             "author": 2
+        },
+        {
+            "id": 160,
+            "label": "Птичка, ну давай!",
+            "link": "https://vk.com/wall-213264704_13077",
+            "author": 3,
+            "cherry": true
         }
     ],
     "links": [
@@ -1835,6 +1842,10 @@
         {
             "source": 0,
             "target": 159
+        },
+        {
+            "source": 110,
+            "target": 160
         }
     ]
 }
