@@ -1044,6 +1044,12 @@
             "link": "https://vk.com/wall-213264704_13077",
             "author": 3,
             "cherry": true
+        },
+        {
+            "id": 161,
+            "label": "Голубыми глазами ворона",
+            "link": "https://docs.google.com/document/d/1daLYOc6La9qKElpwt2pwZvg9Q186ZeBitI-LjG3jmRI/edit?usp=sharing",
+            "author": 2
         }
     ],
     "links": [
@@ -1846,6 +1852,10 @@
         {
             "source": 110,
             "target": 160
+        },
+        {
+            "source": 160,
+            "target": 161
         }
     ]
 }
