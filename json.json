@@ -1068,7 +1068,8 @@
             "id": 164,
             "label": "Йольский переход",
             "link": "https://vk.com/wall-213264704_13429",
-            "author": 3
+            "author": 3,
+            "cherry": true
         }
     ],
     "links": [
