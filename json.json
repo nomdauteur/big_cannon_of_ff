@@ -1070,6 +1070,13 @@
             "link": "https://vk.com/wall-213264704_13429",
             "author": 3,
             "cherry": true
+        },
+        {
+            "id": 165,
+            "label": "Тени Литейного. Странная зима",
+            "link": "https://vk.com/wall-213264704_13437",
+            "author": 3,
+            "cherry": true
         }
     ],
     "links": [
@@ -1888,6 +1895,10 @@
         {
             "source": 27,
             "target": 164
+        },
+        {
+            "source": 0,
+            "target": 165
         }
     ]
 }
