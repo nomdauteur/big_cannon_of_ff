@@ -1077,6 +1077,12 @@
             "link": "https://vk.com/wall-213264704_13437",
             "author": 3,
             "cherry": true
+        },
+        {
+            "id": 166,
+            "label": "Андрюха, у нас... слон слоняется",
+            "link": "https://vk.com/wall-110887427_1199",
+            "author": 2
         }
     ],
     "links": [
@@ -1899,6 +1905,14 @@
         {
             "source": 0,
             "target": 165
+        },
+        {
+            "source": 0,
+            "target": 166
+        },
+        {
+            "source": 110,
+            "target": 166
         }
     ]
 }
