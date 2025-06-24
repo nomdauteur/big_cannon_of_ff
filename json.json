@@ -1095,6 +1095,12 @@
             "label": "Нейронки галлюцинируют",
             "link": "https://vk.com/wall-110887427_1207",
             "author": 2
+        },
+        {
+            "id": 169,
+            "label": "Кары небесные",
+            "link": "https://vk.com/wall-110887427_1209",
+            "author": 2
         }
     ],
     "links": [
@@ -1933,6 +1939,10 @@
         {
             "source": 110,
             "target": 168
+        },
+        {
+            "source": 110,
+            "target": 169
         }
     ]
 }
