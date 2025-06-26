@@ -1101,6 +1101,12 @@
             "label": "Кары небесные",
             "link": "https://vk.com/wall-110887427_1209",
             "author": 2
+        },
+        {
+            "id": 170,
+            "label": "Девять железных посохов",
+            "link": "https://vk.com/wall-110887427_1217",
+            "author": 2
         }
     ],
     "links": [
@@ -1943,6 +1949,10 @@
         {
             "source": 110,
             "target": 169
+        },
+        {
+            "source": 110,
+            "target": 170
         }
     ]
 }
