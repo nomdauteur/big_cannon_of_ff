@@ -1124,7 +1124,8 @@
             "id": 173,
             "label": "Письма с драккара",
             "link": "https://vk.com/wall-213264704_14067",
-            "author": 2
+            "author": 2,
+            "cherry": true
         }
     ],
     "links": [
