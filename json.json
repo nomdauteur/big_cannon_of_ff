@@ -1119,6 +1119,12 @@
             "label": "Где ты был, наблюдающий?",
             "link": "https://vk.com/wall-213264704_14033",
             "author": 3
+        },
+        {
+            "id": 173,
+            "label": "Письма с драккара",
+            "link": "https://vk.com/wall-213264704_14067",
+            "author": 2
         }
     ],
     "links": [
@@ -1973,6 +1979,14 @@
         {
             "source": 0,
             "target": 172
+        },
+        {
+            "source": 27,
+            "target": 173
+        },
+        {
+            "source": 17,
+            "target": 173
         }
     ]
 }
