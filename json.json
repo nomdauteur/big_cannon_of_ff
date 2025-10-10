@@ -1126,6 +1126,12 @@
             "link": "https://vk.com/wall-213264704_14067",
             "author": 2,
             "cherry": true
+        },
+        {
+            "id": 174,
+            "label": "Письма из-за четвертой стены",
+            "link": "https://vk.com/wall-110887427_1224",
+            "author": 3
         }
     ],
     "links": [
@@ -1988,6 +1994,10 @@
         {
             "source": 17,
             "target": 173
+        },
+        {
+            "source": 27,
+            "target": 174
         }
     ]
 }
