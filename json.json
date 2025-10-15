@@ -1138,6 +1138,12 @@
             "label": "Самый важный клюв",
             "link": "https://vk.com/wall-110887427_1225",
             "author": 2
+        },
+        {
+            "id": 176,
+            "label": "Под крыло",
+            "link": "https://vk.com/wall-213264704_14342",
+            "author": 3
         }
     ],
     "links": [
@@ -2008,6 +2014,10 @@
         {
             "source": 110,
             "target": 175
+        },
+        {
+            "source": 110,
+            "target": 176
         }
     ]
 }
