@@ -54,6 +54,11 @@
             "id": 10,
             "name": "Инкогнито",
             "link": "null"
+        },
+        {
+            "id": 11,
+            "name": "Виктор Дашкевич",
+            "link": "null"
         }
     ],
     "nodes": [
@@ -1150,6 +1155,19 @@
             "label": "На крыльях мечты",
             "link": "https://vk.com/wall-213264704_14357",
             "author": 3
+        },
+        {
+            "id": 178,
+            "label": "Колдун Российской империи",
+            "link": "https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BB%D0%B4%D1%83%D0%BD_%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9_%D0%B8%D0%BC%D0%BF%D0%B5%D1%80%D0%B8%D0%B8",
+            "author": 11,
+            "canon": true
+        },
+        {
+            "id": 179,
+            "label": "Чив первого класса",
+            "link": "https://vk.com/wall-110887427_1226",
+            "author": 2
         }
     ],
     "links": [
@@ -2028,6 +2046,14 @@
         {
             "source": 110,
             "target": 177
+        },
+        {
+            "source": 2,
+            "target": 179
+        },
+        {
+            "source": 178,
+            "target": 179
         }
     ]
 }
