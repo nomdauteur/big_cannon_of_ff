@@ -1144,6 +1144,12 @@
             "label": "Под крыло",
             "link": "https://vk.com/wall-213264704_14342",
             "author": 3
+        },
+        {
+            "id": 177,
+            "label": "На крыльях мечты",
+            "link": "https://vk.com/wall-213264704_14357",
+            "author": 3
         }
     ],
     "links": [
@@ -2018,6 +2024,10 @@
         {
             "source": 110,
             "target": 176
+        },
+        {
+            "source": 110,
+            "target": 177
         }
     ]
 }
