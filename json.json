@@ -1187,6 +1187,12 @@
             "label": "Письма из?..",
             "link": "https://vk.com/wall-213264704_14377",
             "author": 3
+        },
+        {
+            "id": 183,
+            "label": "Сказка ложь, а плов — клади",
+            "link": "https://vk.com/wall-110887427_1233",
+            "author": 2
         }
     ],
     "links": [
@@ -2089,6 +2095,14 @@
         {
             "source": 27,
             "target": 182
+        },
+        {
+            "source": 110,
+            "target": 183
+        },
+        {
+            "source": 178,
+            "target": 183
         }
     ]
 }
