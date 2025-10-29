@@ -1193,6 +1193,12 @@
             "label": "Сказка ложь, а плов — клади",
             "link": "https://vk.com/wall-110887427_1233",
             "author": 2
+        },
+        {
+            "id": 184,
+            "label": "Многослойная история",
+            "link": "https://vk.com/wall-213264704_14432",
+            "author": 3
         }
     ],
     "links": [
@@ -2103,6 +2109,18 @@
         {
             "source": 178,
             "target": 183
+        },
+        {
+            "source": 110,
+            "target": 184
+        },
+        {
+            "source": 0,
+            "target": 184
+        },
+        {
+            "source": 27,
+            "target": 184
         }
     ]
 }
