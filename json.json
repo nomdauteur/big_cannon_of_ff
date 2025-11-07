@@ -1205,6 +1205,12 @@
             "label": "Почему сюда?",
             "link": "https://vk.com/wall-213264704_14480",
             "author": 0
+        },
+        {
+            "id": 186,
+            "label": "Пасть и Франция",
+            "link": "https://vk.com/wall-110887427_1236",
+            "author": 2
         }
     ],
     "links": [
@@ -2139,6 +2145,14 @@
         {
             "source": 181,
             "target": 185
+        },
+        {
+            "source": 185,
+            "target": 186
+        },
+        {
+            "source": 110,
+            "target": 186
         }
     ]
 }
