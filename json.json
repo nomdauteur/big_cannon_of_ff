@@ -1199,6 +1199,12 @@
             "label": "Многослойная история",
             "link": "https://vk.com/wall-213264704_14432",
             "author": 3
+        },
+        {
+            "id": 185,
+            "label": "Почему сюда?",
+            "link": "https://vk.com/wall-213264704_14480",
+            "author": 0
         }
     ],
     "links": [
@@ -2121,6 +2127,18 @@
         {
             "source": 27,
             "target": 184
+        },
+        {
+            "source": 0,
+            "target": 185
+        },
+        {
+            "source": 1,
+            "target": 185
+        },
+        {
+            "source": 181,
+            "target": 185
         }
     ]
 }
