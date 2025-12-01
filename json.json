@@ -1231,7 +1231,8 @@
             "id": 189,
             "label": "Пятьдесят оттенков пальто",
             "link": "https://vk.com/wall-213264704_14522",
-            "author": 2
+            "author": 2,
+            "cherry": true
         }
     ],
     "links": [
@@ -2180,7 +2181,7 @@
             "target": 3
         },
         {
-            "source": 1,
+            "source": 188,
             "target": 189
         },
         {
@@ -2188,7 +2189,7 @@
             "target": 189
         },
         {
-            "source": 188,
+            "source": 1,
             "target": 189
         }
     ]
