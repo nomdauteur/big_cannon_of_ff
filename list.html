@@ -252,13 +252,14 @@ for (let i = 0; i < nodes.length; i++)
   {
     txt.appendChild(document.createTextNode(String.fromCodePoint(128994)));
   }
-  else if (nodes[i]["cherry"])
-  {
-    txt.appendChild(document.createTextNode(String.fromCodePoint(127826)));
-  }
+  
   else 
   {
     txt.appendChild(document.createTextNode(String.fromCodePoint(128993)));
+  }
+  if (nodes[i]["cherry"])
+  {
+    txt.appendChild(document.createTextNode(String.fromCodePoint(127826)));
   }
   var auth=document.createElement('td');
   auth.id='author_'+i.toString();
