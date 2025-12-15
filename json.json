@@ -1238,7 +1238,8 @@
             "id": 190,
             "label": "Письма с похмелья",
             "link": "https://vk.com/wall-213264704_14554",
-            "author": 2
+            "author": 2,
+            "cherry": true
         }
     ],
     "links": [
