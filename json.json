@@ -1233,6 +1233,12 @@
             "link": "https://vk.com/wall-213264704_14522",
             "author": 2,
             "cherry": true
+        },
+        {
+            "id": 190,
+            "label": "Письма с похмелья",
+            "link": "https://vk.com/wall-213264704_14554",
+            "author": 2
         }
     ],
     "links": [
@@ -2191,6 +2197,14 @@
         {
             "source": 1,
             "target": 189
+        },
+        {
+            "source": 173,
+            "target": 190
+        },
+        {
+            "source": 188,
+            "target": 190
         }
     ]
 }
