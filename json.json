@@ -1240,6 +1240,13 @@
             "link": "https://vk.com/wall-213264704_14554",
             "author": 2,
             "cherry": true
+        },
+        {
+            "id": 191,
+            "label": "Кто-кто прилетел",
+            "link": "https://vk.com/wall-213264704_14659",
+            "author": 2,
+            "cherry": true
         }
     ],
     "links": [
@@ -2206,6 +2213,10 @@
         {
             "source": 188,
             "target": 190
+        },
+        {
+            "source": 27,
+            "target": 191
         }
     ]
 }
