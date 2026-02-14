@@ -1247,6 +1247,12 @@
             "link": "https://vk.com/wall-213264704_14659",
             "author": 2,
             "cherry": true
+        },
+        {
+            "id": 192,
+            "label": "Три подарка",
+            "link": "https://vk.com/wall-213264704_14738",
+            "author": 3
         }
     ],
     "links": [
@@ -2217,6 +2223,10 @@
         {
             "source": 27,
             "target": 191
+        },
+        {
+            "source": 110,
+            "target": 192
         }
     ]
 }
