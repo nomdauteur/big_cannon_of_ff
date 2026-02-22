@@ -1259,6 +1259,12 @@
             "label": "Грузоподъемность",
             "link": "https://vk.com/wall-110887427_1243",
             "author": 2
+        },
+        {
+            "id": 194,
+            "label": "Блин!",
+            "link": "https://vk.com/wall-213264704_14757",
+            "author": 3
         }
     ],
     "links": [
@@ -2241,6 +2247,10 @@
         {
             "source": 110,
             "target": 193
+        },
+        {
+            "source": 0,
+            "target": 194
         }
     ]
 }
