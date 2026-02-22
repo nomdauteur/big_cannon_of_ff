@@ -1253,6 +1253,12 @@
             "label": "Три подарка",
             "link": "https://vk.com/wall-213264704_14738",
             "author": 3
+        },
+        {
+            "id": 193,
+            "label": "Грузоподъемность",
+            "link": "https://vk.com/wall-110887427_1243",
+            "author": 2
         }
     ],
     "links": [
@@ -2227,6 +2233,14 @@
         {
             "source": 110,
             "target": 192
+        },
+        {
+            "source": 27,
+            "target": 193
+        },
+        {
+            "source": 110,
+            "target": 193
         }
     ]
 }
