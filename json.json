@@ -1271,6 +1271,12 @@
             "label": "Из-за ставней вышел Ворон",
             "link": "https://vk.com/wall-110887427_1245",
             "author": 2
+        },
+        {
+            "id": 196,
+            "label": "За белой нитью",
+            "link": "https://vk.com/wall-99595208_6581",
+            "author": 1
         }
     ],
     "links": [
@@ -2261,6 +2267,10 @@
         {
             "source": 110,
             "target": 195
+        },
+        {
+            "source": 80,
+            "target": 196
         }
     ]
 }
