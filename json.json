@@ -1265,6 +1265,12 @@
             "label": "Блин!",
             "link": "https://vk.com/wall-213264704_14757",
             "author": 3
+        },
+        {
+            "id": 195,
+            "label": "Из-за ставней вышел Ворон",
+            "link": "https://vk.com/wall-110887427_1245",
+            "author": 2
         }
     ],
     "links": [
@@ -2251,6 +2257,10 @@
         {
             "source": 0,
             "target": 194
+        },
+        {
+            "source": 110,
+            "target": 195
         }
     ]
 }
