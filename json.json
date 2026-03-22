@@ -1277,6 +1277,12 @@
             "label": "За белой нитью",
             "link": "https://vk.com/wall-99595208_6581",
             "author": 1
+        },
+        {
+            "id": 197,
+            "label": "Андрюха, у нас... светофор",
+            "link": "https://vk.com/wall-110887427_1249",
+            "author": 2
         }
     ],
     "links": [
@@ -2271,6 +2277,10 @@
         {
             "source": 80,
             "target": 196
+        },
+        {
+            "source": 0,
+            "target": 197
         }
     ]
 }
