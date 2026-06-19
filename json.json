@@ -1301,6 +1301,13 @@
             "label": "Подарите своему ребенку…",
             "link": "https://vk.com/wall-110887427_1261",
             "author": 2
+        },
+        {
+            "id": 201,
+            "label": "Приглашение поорать",
+            "link": "https://vk.com/wall-213264704_15168",
+            "author": 2,
+            "cherry": true
         }
     ],
     "links": [
@@ -2311,6 +2318,10 @@
         {
             "source": 110,
             "target": 200
+        },
+        {
+            "source": 188,
+            "target": 201
         }
     ]
 }
