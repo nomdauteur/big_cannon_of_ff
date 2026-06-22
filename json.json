@@ -1308,6 +1308,13 @@
             "link": "https://vk.com/wall-213264704_15168",
             "author": 2,
             "cherry": true
+        },
+        {
+            "id": 202,
+            "label": "Семья",
+            "link": "https://vk.com/wall-213264704_15173",
+            "author": 3,
+            "cherry": true
         }
     ],
     "links": [
@@ -2322,6 +2329,10 @@
         {
             "source": 188,
             "target": 201
+        },
+        {
+            "source": 188,
+            "target": 202
         }
     ]
 }
