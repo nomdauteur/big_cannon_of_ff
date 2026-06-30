@@ -1315,6 +1315,12 @@
             "link": "https://vk.com/wall-213264704_15173",
             "author": 3,
             "cherry": true
+        },
+        {
+            "id": 203,
+            "label": "Кризис архетипа",
+            "link": "https://vk.com/wall-110887427_1263",
+            "author": 2
         }
     ],
     "links": [
@@ -2333,6 +2339,10 @@
         {
             "source": 188,
             "target": 202
+        },
+        {
+            "source": 16,
+            "target": 203
         }
     ]
 }
