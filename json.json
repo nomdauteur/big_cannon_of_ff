@@ -1327,6 +1327,12 @@
             "label": "Пират",
             "link": "https://vk.com/wall-213264704_15198",
             "author": 3
+        },
+        {
+            "id": 205,
+            "label": "По морям, по волнам",
+            "link": "https://vk.com/wall-110887427_1264",
+            "author": 2
         }
     ],
     "links": [
@@ -2353,6 +2359,10 @@
         {
             "source": 16,
             "target": 204
+        },
+        {
+            "source": 204,
+            "target": 205
         }
     ]
 }
