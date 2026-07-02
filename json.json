@@ -1321,6 +1321,12 @@
             "label": "Кризис архетипа",
             "link": "https://vk.com/wall-110887427_1263",
             "author": 2
+        },
+        {
+            "id": 204,
+            "label": "Пират",
+            "link": "https://vk.com/wall-213264704_15198",
+            "author": 3
         }
     ],
     "links": [
@@ -2343,6 +2349,10 @@
         {
             "source": 16,
             "target": 203
+        },
+        {
+            "source": 16,
+            "target": 204
         }
     ]
 }
