@@ -1333,6 +1333,12 @@
             "label": "По морям, по волнам",
             "link": "https://vk.com/wall-110887427_1264",
             "author": 2
+        },
+        {
+            "id": 206,
+            "label": "Мечта",
+            "link": "https://vk.com/wall-213264704_15237",
+            "author": 3
         }
     ],
     "links": [
@@ -2363,6 +2369,10 @@
         {
             "source": 204,
             "target": 205
+        },
+        {
+            "source": 80,
+            "target": 206
         }
     ]
 }
